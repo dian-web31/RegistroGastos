@@ -38,6 +38,8 @@ def main(self):
 			break
 
 		if opción <= len(self.opciones):
+			# Ejecuta la función que corresponde a la opción - 1
+			# en el diccionario self.opciones.
 			enumerate(self.opciones.values())[opción - 1]()
 		else:
 			print('Opción inválida, intente nuevamente.')
