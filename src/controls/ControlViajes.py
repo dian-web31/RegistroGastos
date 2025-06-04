@@ -1,3 +1,4 @@
+from datetime import date
 from models.Viaje import Viaje
 from repositories.RepoViaje import RepoViaje
 
