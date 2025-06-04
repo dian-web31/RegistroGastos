@@ -11,9 +11,8 @@ from src.repositories.RepoViajes import RepoViajes
 # where the trip is being made, then convert all dates to GMT-5:00.
 
 class ControlViajes:
-	def __init__(self, repo_viajes: RepoViajes, control_gastos: ControlGastos):
+	def __init__(self, repo_viajes: RepoViajes):
 		self.repo = repo_viajes
-		self.control_gastos = control_gastos
 			
 	def registrar_viaje(self,
 		codigo_país,
