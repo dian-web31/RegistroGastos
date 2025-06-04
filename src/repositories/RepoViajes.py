@@ -17,7 +17,9 @@ class RepoViajes:
 	def __init__(self):
 		self.viajes: dict[date, Viaje] = {}
 		self.países: dict[str, País] = {}
-			
+
+		self.cargar()
+	
 	def cargar(self) -> bool:
 		'''
 		Carga los datos del modelo desde los archivos JSON.\n

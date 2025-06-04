@@ -7,8 +7,8 @@ class PantallaRegistroViaje:
 	def registrar_viaje(self) -> None:
 		print('\n--- Registro de un viaje ---')
 
-		print('Código alfa-2 del país')
-		alfa2 = input('(puede buscarlo en http://utils.mucattu.com/iso_3166-1.html): ').lower()
+		print('Código alfa-2 del país (puede buscarlo en http://utils.mucattu.com/iso_3166-1.html)')
+		alfa2 = input('> ').lower()
 		fecha_inicio = input('Fecha de inicio (YYYY-MM-DD): ')
 		fecha_fin = input('Fecha de finalización (YYYY-MM-DD): ')
 		presupuesto_diario = float(input('Presupuesto diario (en COP): '))
