@@ -30,9 +30,8 @@ class RepoViajes:
 		`False` si los archivos JSON son inválidos.
 		'''
 		try:
-			with open('viaje.json', 'r') as f:
-				data = json.load(f)
-						
+			self.cargar_json('países.json')
+			self.cargar_json('viajes.json')						
 		except FileNotFoundError:
 			self.viaje_actual = None
 
@@ -99,3 +98,17 @@ class RepoViajes:
 		except Exception as e:
 			print(f"Error al guardar el archivo {filename}: {e}")
 			return False
+
+	def cargar_json(self, filename: str) -> dict:
+		try:
+			with open(f'{os.getenv("url_data")}/{filename}', 'r') as file:
+				return json.load(file)
+		except FileNotFoundError:
+			print(f"Archivo {filename} no encontrado.")
+			return {}
+		except json.JSONDecodeError:
+			print(f"Error al decodificar el archivo {filename}.")
+			return {}
+		except Exception as e:
+			print(f"Error no identificado al cargar el archivo {filename}: {e}")
+			return {}
