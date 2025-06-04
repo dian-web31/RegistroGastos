@@ -1,16 +1,25 @@
+from controls import ControlReportes
+
 class PantallaReportes:
-    def __init__(self, controlador):
-        self.controlador = controlador
+	def __init__(self, control_reportes: ControlReportes):
+		self.control_reportes = control_reportes
 
-    def mostrar_reportes(self):
-        fecha_inicio = input("Fecha de inicio del viaje (YYYY-MM-DD): ")
-        diarios = self.controlador.reportar_gastos_diarios(fecha_inicio)
-        por_tipo = self.controlador.reportar_gastos_por_tipo(fecha_inicio)
+	def mostrar_reporte_diario(self):
+		print('\n--- Reporte de gastos por día ---')
 
-        print("\n📊 Gastos diarios:")
-        for fecha, valor in diarios.items():
-            print(f"{fecha}: ${valor:.2f} COP")
+		fecha = input('Fecha en la que estuvo en el viaje (YYYY-MM-DD): ')
+		reporte = self.control_reportes.reportar_gastos_diarios(fecha)
 
-        print("\n📊 Gastos por tipo:")
-        for tipo, valor in por_tipo.items():
-            print(f"{tipo}: ${valor:.2f} COP")
+		print('Los gastos por día fueron:')
+		for fecha, valor in reporte.items():
+			print(f'{fecha}: ${valor:.2f} COP')
+
+	def mostrar_reporte_tipo(self):
+		print('\n--- Reporte de gastos por tipo de gasto ---')
+
+		fecha = input('Fecha en la que estuvo en el viaje (YYYY-MM-DD): ')
+		reporte = self.control_reportes.reportar_gastos_por_tipo(fecha)
+
+		print('Los gastos por tipo fueron:')
+		for tipo, valor in reporte.items():
+			print(f'{tipo}: ${valor:.2f} COP')
