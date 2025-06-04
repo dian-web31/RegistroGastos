@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "fecha_inicio": "2025-06-04",
+    "fecha_fin": "2025-07-01",
+    "presupuesto_diario": 100000.0,
+    "pais": {
+      "alfa2": "co",
+      "nombre": "colombia",
+      "codigo_divisa": "cop",
+      "tasa_cambio_cop": 1
+    },
+    "gastos": []
+  }
+]

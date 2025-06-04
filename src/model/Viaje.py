@@ -22,6 +22,6 @@ class Viaje:
 			'fecha_inicio': self.fecha_inicio.isoformat(),
 			'fecha_fin': self.fecha_fin.isoformat(),
 			'presupuesto_diario': self.presupuesto_diario,
-			'país': self.país.to_json(),
+			'pais': self.país.to_json(),
 			'gastos': [gasto.to_json() for gasto in self.gastos]
 		}

@@ -68,7 +68,7 @@ class RepoViajes:
 			)
 			self.países[alfa2] = país
 		
-		países_json = [v.to_json() for v in self.países.values()]
+		países_json = [p.to_json() for p in self.países.values()]
 		fue_guardado = self.guardar_json(países_json, 'países.json')
 		return fue_guardado
 
@@ -76,7 +76,8 @@ class RepoViajes:
 		'''Guarda un nuevo viaje'''
 		self.viajes[viaje.fecha_inicio] = viaje
 		
-		fue_guardado = self.guardar_json(self.viajes, 'viajes.json')
+		viajes_json = [v.to_json() for v in self.viajes.values()]
+		fue_guardado = self.guardar_json(viajes_json, 'viajes.json')
 		return fue_guardado
 			
 	def guardar_gasto(self, gasto: Gasto) -> bool:

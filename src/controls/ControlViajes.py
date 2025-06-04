@@ -14,11 +14,18 @@ class ControlViajes:
 		self.repo = repo_viajes
 			
 	def registrar_viaje(self,
-		alfa2,
-		fecha_inicio,
-		fecha_fin,
-		presupuesto_diario
+		alfa2: str,
+		fecha_inicio: str,
+		fecha_fin: str,
+		presupuesto_diario: float
 	) -> Viaje:
+		fecha_inicio = date.fromisoformat(fecha_inicio)
+		if fecha_inicio < date.today():
+			raise ValueError(
+				'La fecha de inicio no puede ser anterior a la fecha actual'
+			)
+		
+		fecha_fin = date.fromisoformat(fecha_fin)
 		if fecha_inicio >= fecha_fin:
 			raise ValueError(
 				'La fecha de finalización debe ser posterior a la fecha de inicio'
