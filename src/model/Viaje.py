@@ -10,6 +10,9 @@ class Viaje:
 		self.país = país
 		self.gastos: list[Gasto] = []
 
+	def get_fecha_fin(self) -> date:
+		return self.fecha_fin
+
 	# Método para calcular el presupuesto total del viaje
 	def agregar_gasto(self, gasto):
 		self.gastos.append(gasto)
