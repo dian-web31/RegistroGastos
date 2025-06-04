@@ -43,11 +43,11 @@ class RepoViajes:
 		`False` si la comunicación falló.
 		'''
 		info_países = requests.get(
-			f'{os.getenv('url_api_paises')}/country.json'
+			f"{os.getenv('url_api_paises')}/country.json"
 		).json()
 
 		tasas_cop = requests.get(
-			f'{os.getenv('url_api_paises')}/currencies/cop.json'
+			f"{os.getenv('url_api_paises')}/currencies/cop.json"
 		).json()["cop"]
 
 		for alfa2 in info_países:
@@ -91,7 +91,7 @@ class RepoViajes:
 
 	def guardar_json(self, entries: dict, filename: str) -> bool:
 		try:
-			with open(f'{os.getenv('url_data')}/{filename}', 'w') as file:
+			with open(f"{os.getenv('url_data')}/{filename}", 'w') as file:
 				json.dump(entries, file, indent=2)
 			return True
 		except Exception as e:
