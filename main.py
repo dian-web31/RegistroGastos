@@ -31,7 +31,7 @@ class Aplicacion:
 				print(f'{index + 1}: {description}')
 			print('0. Salir')
 
-			opción = int(input('Seleccione una opción: '))
+			opción = int(input('\nSeleccione una opción: '))
 			# Las opciones negativas que no tienen sentido
 			# se consideran como condición de salida del programa.
 			if opción <= 0:

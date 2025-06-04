@@ -9,16 +9,16 @@ class PantallaRegistroGasto:
 	def registrar_gasto(self) -> None:
 		print('\n--- Registro de un gasto ---')
 
-		fecha = input('\tFecha (YYYY-MM-DD): ')
-		valor = float(input('\tValor del gasto en moneda local: '))
-		print('\tTipos de gasto:')
+		fecha = input('Fecha (YYYY-MM-DD): ')
+		valor = float(input('Valor del gasto en moneda local: '))
+		print('Tipos de gasto:')
 		for tipo in TipoGasto:
-			print(f'\t\t{tipo.value} - {tipo.name}')
-		tipo = int(input('\tSeleccione un tipo: '))
+			print(f'\t{tipo.value} - {tipo.name}')
+		tipo = int(input('Seleccione un tipo: '))
 		print('Medios de pago:')
 		for medio in MedioPago:
-			print(f'\t\t{medio.value} - {medio.name}')
-		medio = int(input('\tSeleccione un medio: '))
+			print(f'\t{medio.value} - {medio.name}')
+		medio = int(input('Seleccione un medio: '))
 
 		try:
 			diferencia = self.control_gastos.registrar_gasto(fecha, valor, tipo, medio)
