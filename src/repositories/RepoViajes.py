@@ -30,10 +30,14 @@ class RepoViajes:
 		`False` si los archivos JSON son inválidos.
 		'''
 		try:
-			self.cargar_json('países.json')
-			self.cargar_json('viajes.json')						
-		except FileNotFoundError:
-			self.viaje_actual = None
+			api_cargada = self.cargar_países_api()
+			if not api_cargada:
+				self.cargar_json('países.json')
+			self.cargar_json('viajes.json')
+			return True
+		except Exception as e:
+			print(e)
+			return False
 
 	# TODO - El retorno debe depender de la respuesta de la API,
 	# no de la carga del archivo JSON.
@@ -52,15 +56,20 @@ class RepoViajes:
 		).json()["cop"]
 
 		for alfa2 in info_países:
+			tasa_cop = None
+			if info_países[alfa2]['currency_code'] in tasas_cop:
+				tasa_cop = tasas_cop[info_países[alfa2]['currency_code']]
+			
 			país = País(
 				alfa2,
 				info_países[alfa2]['country_name'],
 				info_países[alfa2]['currency_code'],
-				tasas_cop[info_países[alfa2]['currency_code']]
+				tasa_cop
 			)
 			self.países[alfa2] = país
 		
-		fue_guardado = self.guardar_json(self.países, 'países.json')
+		países_json = [v.to_json() for v in self.países.values()]
+		fue_guardado = self.guardar_json(países_json, 'países.json')
 		return fue_guardado
 
 	def guardar_viaje(self, viaje: Viaje) -> bool:
@@ -103,12 +112,6 @@ class RepoViajes:
 		try:
 			with open(f'{os.getenv("url_data")}/{filename}', 'r') as file:
 				return json.load(file)
-		except FileNotFoundError:
-			print(f"Archivo {filename} no encontrado.")
-			return {}
-		except json.JSONDecodeError:
-			print(f"Error al decodificar el archivo {filename}.")
-			return {}
 		except Exception as e:
-			print(f"Error no identificado al cargar el archivo {filename}: {e}")
+			print(f"Error al cargar el archivo {filename}: {e}")
 			return {}

@@ -12,6 +12,7 @@ class PantallaRegistroViaje:
 		fecha_inicio = input('Fecha de inicio (YYYY-MM-DD): ')
 		fecha_fin = input('Fecha de finalización (YYYY-MM-DD): ')
 		presupuesto_diario = float(input('Presupuesto diario (en COP): '))
+		print()
 		
 		try:
 			viaje = self.control_viajes.registrar_viaje(alfa2, fecha_inicio, fecha_fin, presupuesto_diario)

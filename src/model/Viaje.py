@@ -16,3 +16,12 @@ class Viaje:
 	# Método para calcular el presupuesto total del viaje
 	def agregar_gasto(self, gasto):
 		self.gastos.append(gasto)
+
+	def to_json(self) -> str:
+		return {
+			'fecha_inicio': self.fecha_inicio.isoformat(),
+			'fecha_fin': self.fecha_fin.isoformat(),
+			'presupuesto_diario': self.presupuesto_diario,
+			'país': self.país.to_json(),
+			'gastos': [gasto.to_json() for gasto in self.gastos]
+		}

@@ -1,0 +1,1472 @@
+[
+  {
+    "alfa2": "af",
+    "nombre": "afghanistan",
+    "codigo_divisa": "afn",
+    "tasa_cambio_cop": 0.016743789
+  },
+  {
+    "alfa2": "al",
+    "nombre": "albania",
+    "codigo_divisa": "all",
+    "tasa_cambio_cop": 0.020757935
+  },
+  {
+    "alfa2": "dz",
+    "nombre": "algeria",
+    "codigo_divisa": "dzd",
+    "tasa_cambio_cop": 0.031759687
+  },
+  {
+    "alfa2": "as",
+    "nombre": "american samoa",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "ad",
+    "nombre": "andorra",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "ao",
+    "nombre": "angola",
+    "codigo_divisa": "aoa",
+    "tasa_cambio_cop": 0.22193859
+  },
+  {
+    "alfa2": "ai",
+    "nombre": "anguilla",
+    "codigo_divisa": "xcd",
+    "tasa_cambio_cop": 0.00065240201
+  },
+  {
+    "alfa2": "aq",
+    "nombre": "antarctica",
+    "codigo_divisa": "",
+    "tasa_cambio_cop": null
+  },
+  {
+    "alfa2": "ag",
+    "nombre": "antigua and barbuda",
+    "codigo_divisa": "xcd",
+    "tasa_cambio_cop": 0.00065240201
+  },
+  {
+    "alfa2": "ar",
+    "nombre": "argentina",
+    "codigo_divisa": "ars",
+    "tasa_cambio_cop": 0.28468126
+  },
+  {
+    "alfa2": "am",
+    "nombre": "armenia",
+    "codigo_divisa": "amd",
+    "tasa_cambio_cop": 0.092374547
+  },
+  {
+    "alfa2": "aw",
+    "nombre": "aruba",
+    "codigo_divisa": "awg",
+    "tasa_cambio_cop": 0.00043159841
+  },
+  {
+    "alfa2": "au",
+    "nombre": "australia",
+    "codigo_divisa": "aud",
+    "tasa_cambio_cop": 0.0003720711
+  },
+  {
+    "alfa2": "at",
+    "nombre": "austria",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "az",
+    "nombre": "azerbaijan",
+    "codigo_divisa": "azn",
+    "tasa_cambio_cop": 0.0004098979
+  },
+  {
+    "alfa2": "bs",
+    "nombre": "bahamas (the)",
+    "codigo_divisa": "bsd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "bh",
+    "nombre": "bahrain",
+    "codigo_divisa": "bhd",
+    "tasa_cambio_cop": 9.0659778e-05
+  },
+  {
+    "alfa2": "bd",
+    "nombre": "bangladesh",
+    "codigo_divisa": "bdt",
+    "tasa_cambio_cop": 0.029424452
+  },
+  {
+    "alfa2": "bb",
+    "nombre": "barbados",
+    "codigo_divisa": "bbd",
+    "tasa_cambio_cop": 0.00048223286
+  },
+  {
+    "alfa2": "by",
+    "nombre": "belarus",
+    "codigo_divisa": "byn",
+    "tasa_cambio_cop": 0.00078890509
+  },
+  {
+    "alfa2": "be",
+    "nombre": "belgium",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "bz",
+    "nombre": "belize",
+    "codigo_divisa": "bzd",
+    "tasa_cambio_cop": 0.00048358683
+  },
+  {
+    "alfa2": "bj",
+    "nombre": "benin",
+    "codigo_divisa": "xof",
+    "tasa_cambio_cop": 0.13841496
+  },
+  {
+    "alfa2": "bm",
+    "nombre": "bermuda",
+    "codigo_divisa": "bmd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "bt",
+    "nombre": "bhutan",
+    "codigo_divisa": "btn",
+    "tasa_cambio_cop": 0.020602116
+  },
+  {
+    "alfa2": "bo",
+    "nombre": "bolivia (plurinational state of)",
+    "codigo_divisa": "bob",
+    "tasa_cambio_cop": 0.0016662259
+  },
+  {
+    "alfa2": " sint eustatius and saba",
+    "nombre": "bonaire",
+    "codigo_divisa": "us dollar",
+    "tasa_cambio_cop": null
+  },
+  {
+    "alfa2": "ba",
+    "nombre": "bosnia and herzegovina",
+    "codigo_divisa": "bam",
+    "tasa_cambio_cop": 0.00041270409
+  },
+  {
+    "alfa2": "bw",
+    "nombre": "botswana",
+    "codigo_divisa": "bwp",
+    "tasa_cambio_cop": 0.0032394954
+  },
+  {
+    "alfa2": "bv",
+    "nombre": "bouvet island",
+    "codigo_divisa": "nok",
+    "tasa_cambio_cop": 0.0024324629
+  },
+  {
+    "alfa2": "br",
+    "nombre": "brazil",
+    "codigo_divisa": "brl",
+    "tasa_cambio_cop": 0.0013683489
+  },
+  {
+    "alfa2": "io",
+    "nombre": "british indian ocean territory (the)",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "bn",
+    "nombre": "brunei darussalam",
+    "codigo_divisa": "bnd",
+    "tasa_cambio_cop": 0.00031026982
+  },
+  {
+    "alfa2": "bg",
+    "nombre": "bulgaria",
+    "codigo_divisa": "bgn",
+    "tasa_cambio_cop": 0.00041270409
+  },
+  {
+    "alfa2": "bf",
+    "nombre": "burkina faso",
+    "codigo_divisa": "xof",
+    "tasa_cambio_cop": 0.13841496
+  },
+  {
+    "alfa2": "bi",
+    "nombre": "burundi",
+    "codigo_divisa": "bif",
+    "tasa_cambio_cop": 0.71708026
+  },
+  {
+    "alfa2": "cv",
+    "nombre": "cabo verde",
+    "codigo_divisa": "cve",
+    "tasa_cambio_cop": 0.023268321
+  },
+  {
+    "alfa2": "kh",
+    "nombre": "cambodia",
+    "codigo_divisa": "khr",
+    "tasa_cambio_cop": 0.96364962
+  },
+  {
+    "alfa2": "cm",
+    "nombre": "cameroon",
+    "codigo_divisa": "xaf",
+    "tasa_cambio_cop": 0.13841496
+  },
+  {
+    "alfa2": "ca",
+    "nombre": "canada",
+    "codigo_divisa": "cad",
+    "tasa_cambio_cop": 0.0003309315
+  },
+  {
+    "alfa2": "ky",
+    "nombre": "cayman islands (the)",
+    "codigo_divisa": "kyd",
+    "tasa_cambio_cop": 0.00019963255
+  },
+  {
+    "alfa2": "cf",
+    "nombre": "central african republic (the)",
+    "codigo_divisa": "xaf",
+    "tasa_cambio_cop": 0.13841496
+  },
+  {
+    "alfa2": "td",
+    "nombre": "chad",
+    "codigo_divisa": "xaf",
+    "tasa_cambio_cop": 0.13841496
+  },
+  {
+    "alfa2": "cl",
+    "nombre": "chile",
+    "codigo_divisa": "clp",
+    "tasa_cambio_cop": 0.22656219
+  },
+  {
+    "alfa2": "cn",
+    "nombre": "china",
+    "codigo_divisa": "cny",
+    "tasa_cambio_cop": 0.0017361463
+  },
+  {
+    "alfa2": "cx",
+    "nombre": "christmas island",
+    "codigo_divisa": "aud",
+    "tasa_cambio_cop": 0.0003720711
+  },
+  {
+    "alfa2": "cc",
+    "nombre": "cocos (keeling) islands (the)",
+    "codigo_divisa": "aud",
+    "tasa_cambio_cop": 0.0003720711
+  },
+  {
+    "alfa2": "co",
+    "nombre": "colombia",
+    "codigo_divisa": "cop",
+    "tasa_cambio_cop": 1
+  },
+  {
+    "alfa2": "km",
+    "nombre": "comoros (the)",
+    "codigo_divisa": "kmf",
+    "tasa_cambio_cop": 0.10381122
+  },
+  {
+    "alfa2": "cd",
+    "nombre": "congo (the democratic republic of the)",
+    "codigo_divisa": "cdf",
+    "tasa_cambio_cop": 0.70010254
+  },
+  {
+    "alfa2": "cg",
+    "nombre": "congo (the)",
+    "codigo_divisa": "xaf",
+    "tasa_cambio_cop": 0.13841496
+  },
+  {
+    "alfa2": "ck",
+    "nombre": "cook islands (the)",
+    "codigo_divisa": "nzd",
+    "tasa_cambio_cop": 0.00039927393
+  },
+  {
+    "alfa2": "cr",
+    "nombre": "costa rica",
+    "codigo_divisa": "crc",
+    "tasa_cambio_cop": 0.12248944
+  },
+  {
+    "alfa2": "hr",
+    "nombre": "croatia",
+    "codigo_divisa": "hrk",
+    "tasa_cambio_cop": 0.0015898718
+  },
+  {
+    "alfa2": "cu",
+    "nombre": "cuba",
+    "codigo_divisa": "cup",
+    "tasa_cambio_cop": 0.005779298
+  },
+  {
+    "alfa2": "cw",
+    "nombre": "cura\ufffdao",
+    "codigo_divisa": "ang",
+    "tasa_cambio_cop": 0.00043364684
+  },
+  {
+    "alfa2": "cy",
+    "nombre": "cyprus",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "ci",
+    "nombre": "c\ufffdte d'ivoire",
+    "codigo_divisa": "xof",
+    "tasa_cambio_cop": 0.13841496
+  },
+  {
+    "alfa2": "dk",
+    "nombre": "denmark",
+    "codigo_divisa": "dkk",
+    "tasa_cambio_cop": 0.0015741981
+  },
+  {
+    "alfa2": "dj",
+    "nombre": "djibouti",
+    "codigo_divisa": "djf",
+    "tasa_cambio_cop": 0.042893704
+  },
+  {
+    "alfa2": "dm",
+    "nombre": "dominica",
+    "codigo_divisa": "xcd",
+    "tasa_cambio_cop": 0.00065240201
+  },
+  {
+    "alfa2": "do",
+    "nombre": "dominican republic (the)",
+    "codigo_divisa": "dop",
+    "tasa_cambio_cop": 0.014190338
+  },
+  {
+    "alfa2": "ec",
+    "nombre": "ecuador",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "eg",
+    "nombre": "egypt",
+    "codigo_divisa": "egp",
+    "tasa_cambio_cop": 0.011980143
+  },
+  {
+    "alfa2": "sv",
+    "nombre": "el salvador",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "gq",
+    "nombre": "equatorial guinea",
+    "codigo_divisa": "xaf",
+    "tasa_cambio_cop": 0.13841496
+  },
+  {
+    "alfa2": "er",
+    "nombre": "eritrea",
+    "codigo_divisa": "ern",
+    "tasa_cambio_cop": 0.0036167465
+  },
+  {
+    "alfa2": "ee",
+    "nombre": "estonia",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "et",
+    "nombre": "ethiopia",
+    "codigo_divisa": "etb",
+    "tasa_cambio_cop": 0.032775211
+  },
+  {
+    "alfa2": "fk",
+    "nombre": "falkland islands (the) [malvinas]",
+    "codigo_divisa": "fkp",
+    "tasa_cambio_cop": 0.00017817791
+  },
+  {
+    "alfa2": "fo",
+    "nombre": "faroe islands (the)",
+    "codigo_divisa": "dkk",
+    "tasa_cambio_cop": 0.0015741981
+  },
+  {
+    "alfa2": "fj",
+    "nombre": "fiji",
+    "codigo_divisa": "fjd",
+    "tasa_cambio_cop": 0.0005425431
+  },
+  {
+    "alfa2": "fi",
+    "nombre": "finland",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "fr",
+    "nombre": "france",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "gf",
+    "nombre": "french guiana",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "pf",
+    "nombre": "french polynesia",
+    "codigo_divisa": "xpf",
+    "tasa_cambio_cop": 0.025180459
+  },
+  {
+    "alfa2": "tf",
+    "nombre": "french southern territories (the)",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "ga",
+    "nombre": "gabon",
+    "codigo_divisa": "xaf",
+    "tasa_cambio_cop": 0.13841496
+  },
+  {
+    "alfa2": "gm",
+    "nombre": "gambia (the)",
+    "codigo_divisa": "gmd",
+    "tasa_cambio_cop": 0.017457908
+  },
+  {
+    "alfa2": "ge",
+    "nombre": "georgia",
+    "codigo_divisa": "gel",
+    "tasa_cambio_cop": 0.00065847943
+  },
+  {
+    "alfa2": "de",
+    "nombre": "germany",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "gh",
+    "nombre": "ghana",
+    "codigo_divisa": "ghs",
+    "tasa_cambio_cop": 0.0024723459
+  },
+  {
+    "alfa2": "gi",
+    "nombre": "gibraltar",
+    "codigo_divisa": "gip",
+    "tasa_cambio_cop": 0.00017817791
+  },
+  {
+    "alfa2": "gr",
+    "nombre": "greece",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "gl",
+    "nombre": "greenland",
+    "codigo_divisa": "dkk",
+    "tasa_cambio_cop": 0.0015741981
+  },
+  {
+    "alfa2": "gd",
+    "nombre": "grenada",
+    "codigo_divisa": "xcd",
+    "tasa_cambio_cop": 0.00065240201
+  },
+  {
+    "alfa2": "gp",
+    "nombre": "guadeloupe",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "gu",
+    "nombre": "guam",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "gt",
+    "nombre": "guatemala",
+    "codigo_divisa": "gtq",
+    "tasa_cambio_cop": 0.0018504948
+  },
+  {
+    "alfa2": "gg",
+    "nombre": "guernsey",
+    "codigo_divisa": "gbp",
+    "tasa_cambio_cop": 0.00017817791
+  },
+  {
+    "alfa2": "gn",
+    "nombre": "guinea",
+    "codigo_divisa": "gnf",
+    "tasa_cambio_cop": 2.0903629
+  },
+  {
+    "alfa2": "gw",
+    "nombre": "guinea-bissau",
+    "codigo_divisa": "xof",
+    "tasa_cambio_cop": 0.13841496
+  },
+  {
+    "alfa2": "gy",
+    "nombre": "guyana",
+    "codigo_divisa": "gyd",
+    "tasa_cambio_cop": 0.050326177
+  },
+  {
+    "alfa2": "ht",
+    "nombre": "haiti",
+    "codigo_divisa": "htg",
+    "tasa_cambio_cop": 0.03152274
+  },
+  {
+    "alfa2": "hm",
+    "nombre": "heard island and mcdonald islands",
+    "codigo_divisa": "aud",
+    "tasa_cambio_cop": 0.0003720711
+  },
+  {
+    "alfa2": "va",
+    "nombre": "holy see (the)",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "hn",
+    "nombre": "honduras",
+    "codigo_divisa": "hnl",
+    "tasa_cambio_cop": 0.006277675
+  },
+  {
+    "alfa2": "hk",
+    "nombre": "hong kong",
+    "codigo_divisa": "hkd",
+    "tasa_cambio_cop": 0.0018912406
+  },
+  {
+    "alfa2": "hu",
+    "nombre": "hungary",
+    "codigo_divisa": "huf",
+    "tasa_cambio_cop": 0.085071281
+  },
+  {
+    "alfa2": "is",
+    "nombre": "iceland",
+    "codigo_divisa": "isk",
+    "tasa_cambio_cop": 0.030472521
+  },
+  {
+    "alfa2": "in",
+    "nombre": "india",
+    "codigo_divisa": "inr",
+    "tasa_cambio_cop": 0.020602116
+  },
+  {
+    "alfa2": "id",
+    "nombre": "indonesia",
+    "codigo_divisa": "idr",
+    "tasa_cambio_cop": 3.92817813
+  },
+  {
+    "alfa2": "ir",
+    "nombre": "iran (islamic republic of)",
+    "codigo_divisa": "irr",
+    "tasa_cambio_cop": 10.15732588
+  },
+  {
+    "alfa2": "iq",
+    "nombre": "iraq",
+    "codigo_divisa": "iqd",
+    "tasa_cambio_cop": 0.31543803
+  },
+  {
+    "alfa2": "ie",
+    "nombre": "ireland",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "im",
+    "nombre": "isle of man",
+    "codigo_divisa": "gbp",
+    "tasa_cambio_cop": 0.00017817791
+  },
+  {
+    "alfa2": "il",
+    "nombre": "israel",
+    "codigo_divisa": "ils",
+    "tasa_cambio_cop": 0.00084896996
+  },
+  {
+    "alfa2": "it",
+    "nombre": "italy",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "jm",
+    "nombre": "jamaica",
+    "codigo_divisa": "jmd",
+    "tasa_cambio_cop": 0.03839134
+  },
+  {
+    "alfa2": "jp",
+    "nombre": "japan",
+    "codigo_divisa": "jpy",
+    "tasa_cambio_cop": 0.034528901
+  },
+  {
+    "alfa2": "je",
+    "nombre": "jersey",
+    "codigo_divisa": "gbp",
+    "tasa_cambio_cop": 0.00017817791
+  },
+  {
+    "alfa2": "jo",
+    "nombre": "jordan",
+    "codigo_divisa": "jod",
+    "tasa_cambio_cop": 0.00017095155
+  },
+  {
+    "alfa2": "kz",
+    "nombre": "kazakhstan",
+    "codigo_divisa": "kzt",
+    "tasa_cambio_cop": 0.1232166
+  },
+  {
+    "alfa2": "ke",
+    "nombre": "kenya",
+    "codigo_divisa": "kes",
+    "tasa_cambio_cop": 0.031123712
+  },
+  {
+    "alfa2": "ki",
+    "nombre": "kiribati",
+    "codigo_divisa": "aud",
+    "tasa_cambio_cop": 0.0003720711
+  },
+  {
+    "alfa2": "kr",
+    "nombre": "korea (the republic of)",
+    "codigo_divisa": "krw",
+    "tasa_cambio_cop": 0.3321344
+  },
+  {
+    "alfa2": "kw",
+    "nombre": "kuwait",
+    "codigo_divisa": "kwd",
+    "tasa_cambio_cop": 7.3920639e-05
+  },
+  {
+    "alfa2": "kg",
+    "nombre": "kyrgyzstan",
+    "codigo_divisa": "kgs",
+    "tasa_cambio_cop": 0.021091364
+  },
+  {
+    "alfa2": "lv",
+    "nombre": "latvia",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "lb",
+    "nombre": "lebanon",
+    "codigo_divisa": "lbp",
+    "tasa_cambio_cop": 21.62874093
+  },
+  {
+    "alfa2": "ls",
+    "nombre": "lesotho",
+    "codigo_divisa": "lsl",
+    "tasa_cambio_cop": 0.0043050967
+  },
+  {
+    "alfa2": "lr",
+    "nombre": "liberia",
+    "codigo_divisa": "lrd",
+    "tasa_cambio_cop": 0.048073747
+  },
+  {
+    "alfa2": "ly",
+    "nombre": "libya",
+    "codigo_divisa": "lyd",
+    "tasa_cambio_cop": 0.0013139018
+  },
+  {
+    "alfa2": "li",
+    "nombre": "liechtenstein",
+    "codigo_divisa": "chf",
+    "tasa_cambio_cop": 0.00019732431
+  },
+  {
+    "alfa2": "lt",
+    "nombre": "lithuania",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "lu",
+    "nombre": "luxembourg",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "mo",
+    "nombre": "macao",
+    "codigo_divisa": "mop",
+    "tasa_cambio_cop": 0.0019479778
+  },
+  {
+    "alfa2": "mg",
+    "nombre": "madagascar",
+    "codigo_divisa": "mga",
+    "tasa_cambio_cop": 1.09344846
+  },
+  {
+    "alfa2": "mw",
+    "nombre": "malawi",
+    "codigo_divisa": "mwk",
+    "tasa_cambio_cop": 0.41748611
+  },
+  {
+    "alfa2": "my",
+    "nombre": "malaysia",
+    "codigo_divisa": "myr",
+    "tasa_cambio_cop": 0.0010224883
+  },
+  {
+    "alfa2": "mv",
+    "nombre": "maldives",
+    "codigo_divisa": "mvr",
+    "tasa_cambio_cop": 0.003727581
+  },
+  {
+    "alfa2": "ml",
+    "nombre": "mali",
+    "codigo_divisa": "xof",
+    "tasa_cambio_cop": 0.13841496
+  },
+  {
+    "alfa2": "mt",
+    "nombre": "malta",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "mh",
+    "nombre": "marshall islands (the)",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "mq",
+    "nombre": "martinique",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "mr",
+    "nombre": "mauritania",
+    "codigo_divisa": "mru",
+    "tasa_cambio_cop": 0.0095328659
+  },
+  {
+    "alfa2": "mu",
+    "nombre": "mauritius",
+    "codigo_divisa": "mur",
+    "tasa_cambio_cop": 0.011022983
+  },
+  {
+    "alfa2": "yt",
+    "nombre": "mayotte",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "mx",
+    "nombre": "mexico",
+    "codigo_divisa": "mxn",
+    "tasa_cambio_cop": 0.0046319652
+  },
+  {
+    "alfa2": "fm",
+    "nombre": "micronesia (federated states of)",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "md",
+    "nombre": "moldova (the republic of)",
+    "codigo_divisa": "mdl",
+    "tasa_cambio_cop": 0.0041584733
+  },
+  {
+    "alfa2": "mc",
+    "nombre": "monaco",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "mn",
+    "nombre": "mongolia",
+    "codigo_divisa": "mnt",
+    "tasa_cambio_cop": 0.86219956
+  },
+  {
+    "alfa2": "me",
+    "nombre": "montenegro",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "ms",
+    "nombre": "montserrat",
+    "codigo_divisa": "xcd",
+    "tasa_cambio_cop": 0.00065240201
+  },
+  {
+    "alfa2": "ma",
+    "nombre": "morocco",
+    "codigo_divisa": "mad",
+    "tasa_cambio_cop": 0.0022165159
+  },
+  {
+    "alfa2": "mz",
+    "nombre": "mozambique",
+    "codigo_divisa": "mzn",
+    "tasa_cambio_cop": 0.015403077
+  },
+  {
+    "alfa2": "mm",
+    "nombre": "myanmar",
+    "codigo_divisa": "mmk",
+    "tasa_cambio_cop": 0.50624019
+  },
+  {
+    "alfa2": "na",
+    "nombre": "namibia",
+    "codigo_divisa": "nad",
+    "tasa_cambio_cop": 0.0043050967
+  },
+  {
+    "alfa2": "nr",
+    "nombre": "nauru",
+    "codigo_divisa": "aud",
+    "tasa_cambio_cop": 0.0003720711
+  },
+  {
+    "alfa2": "np",
+    "nombre": "nepal",
+    "codigo_divisa": "npr",
+    "tasa_cambio_cop": 0.032978838
+  },
+  {
+    "alfa2": "nl",
+    "nombre": "netherlands (the)",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "nc",
+    "nombre": "new caledonia",
+    "codigo_divisa": "xpf",
+    "tasa_cambio_cop": 0.025180459
+  },
+  {
+    "alfa2": "nz",
+    "nombre": "new zealand",
+    "codigo_divisa": "nzd",
+    "tasa_cambio_cop": 0.00039927393
+  },
+  {
+    "alfa2": "ni",
+    "nombre": "nicaragua",
+    "codigo_divisa": "nio",
+    "tasa_cambio_cop": 0.0088628215
+  },
+  {
+    "alfa2": "ne",
+    "nombre": "niger (the)",
+    "codigo_divisa": "xof",
+    "tasa_cambio_cop": 0.13841496
+  },
+  {
+    "alfa2": "ng",
+    "nombre": "nigeria",
+    "codigo_divisa": "ngn",
+    "tasa_cambio_cop": 0.3812187
+  },
+  {
+    "alfa2": "nu",
+    "nombre": "niue",
+    "codigo_divisa": "nzd",
+    "tasa_cambio_cop": 0.00039927393
+  },
+  {
+    "alfa2": "nf",
+    "nombre": "norfolk island",
+    "codigo_divisa": "aud",
+    "tasa_cambio_cop": 0.0003720711
+  },
+  {
+    "alfa2": "mp",
+    "nombre": "northern mariana islands (the)",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "no",
+    "nombre": "norway",
+    "codigo_divisa": "nok",
+    "tasa_cambio_cop": 0.0024324629
+  },
+  {
+    "alfa2": "om",
+    "nombre": "oman",
+    "codigo_divisa": "omr",
+    "tasa_cambio_cop": 9.2791263e-05
+  },
+  {
+    "alfa2": "pk",
+    "nombre": "pakistan",
+    "codigo_divisa": "pkr",
+    "tasa_cambio_cop": 0.067919166
+  },
+  {
+    "alfa2": "pw",
+    "nombre": "palau",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": " state of",
+    "nombre": "palestine",
+    "codigo_divisa": "no universal currency",
+    "tasa_cambio_cop": null
+  },
+  {
+    "alfa2": "pa",
+    "nombre": "panama",
+    "codigo_divisa": "pab",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "pg",
+    "nombre": "papua new guinea",
+    "codigo_divisa": "pgk",
+    "tasa_cambio_cop": 0.00098873994
+  },
+  {
+    "alfa2": "py",
+    "nombre": "paraguay",
+    "codigo_divisa": "pyg",
+    "tasa_cambio_cop": 1.92465707
+  },
+  {
+    "alfa2": "pe",
+    "nombre": "peru",
+    "codigo_divisa": "pen",
+    "tasa_cambio_cop": 0.0008718094
+  },
+  {
+    "alfa2": "ph",
+    "nombre": "philippines (the)",
+    "codigo_divisa": "php",
+    "tasa_cambio_cop": 0.01342546
+  },
+  {
+    "alfa2": "pn",
+    "nombre": "pitcairn",
+    "codigo_divisa": "nzd",
+    "tasa_cambio_cop": 0.00039927393
+  },
+  {
+    "alfa2": "pl",
+    "nombre": "poland",
+    "codigo_divisa": "pln",
+    "tasa_cambio_cop": 0.00089826442
+  },
+  {
+    "alfa2": "pt",
+    "nombre": "portugal",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "pr",
+    "nombre": "puerto rico",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "qa",
+    "nombre": "qatar",
+    "codigo_divisa": "qar",
+    "tasa_cambio_cop": 0.00087766381
+  },
+  {
+    "alfa2": "mk",
+    "nombre": "republic of north macedonia",
+    "codigo_divisa": "mkd",
+    "tasa_cambio_cop": 0.012972267
+  },
+  {
+    "alfa2": "ro",
+    "nombre": "romania",
+    "codigo_divisa": "ron",
+    "tasa_cambio_cop": 0.0010681564
+  },
+  {
+    "alfa2": "ru",
+    "nombre": "russian federation (the)",
+    "codigo_divisa": "rub",
+    "tasa_cambio_cop": 0.019052792
+  },
+  {
+    "alfa2": "rw",
+    "nombre": "rwanda",
+    "codigo_divisa": "rwf",
+    "tasa_cambio_cop": 0.34448721
+  },
+  {
+    "alfa2": "re",
+    "nombre": "r\ufffdunion",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "bl",
+    "nombre": "saint barth\ufffdlemy",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": " ascension and tristan da cunha",
+    "nombre": "saint helena",
+    "codigo_divisa": "saint helena pound",
+    "tasa_cambio_cop": null
+  },
+  {
+    "alfa2": "kn",
+    "nombre": "saint kitts and nevis",
+    "codigo_divisa": "xcd",
+    "tasa_cambio_cop": 0.00065240201
+  },
+  {
+    "alfa2": "lc",
+    "nombre": "saint lucia",
+    "codigo_divisa": "xcd",
+    "tasa_cambio_cop": 0.00065240201
+  },
+  {
+    "alfa2": "mf",
+    "nombre": "saint martin (french part)",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "pm",
+    "nombre": "saint pierre and miquelon",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "vc",
+    "nombre": "saint vincent and the grenadines",
+    "codigo_divisa": "xcd",
+    "tasa_cambio_cop": 0.00065240201
+  },
+  {
+    "alfa2": "ws",
+    "nombre": "samoa",
+    "codigo_divisa": "wst",
+    "tasa_cambio_cop": 0.00066225078
+  },
+  {
+    "alfa2": "sm",
+    "nombre": "san marino",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "st",
+    "nombre": "sao tome and principe",
+    "codigo_divisa": "stn",
+    "tasa_cambio_cop": 0.0052121015
+  },
+  {
+    "alfa2": "sa",
+    "nombre": "saudi arabia",
+    "codigo_divisa": "sar",
+    "tasa_cambio_cop": 0.00090418662
+  },
+  {
+    "alfa2": "sn",
+    "nombre": "senegal",
+    "codigo_divisa": "xof",
+    "tasa_cambio_cop": 0.13841496
+  },
+  {
+    "alfa2": "rs",
+    "nombre": "serbia",
+    "codigo_divisa": "rsd",
+    "tasa_cambio_cop": 0.024730342
+  },
+  {
+    "alfa2": "sc",
+    "nombre": "seychelles",
+    "codigo_divisa": "scr",
+    "tasa_cambio_cop": 0.0035358132
+  },
+  {
+    "alfa2": "sl",
+    "nombre": "sierra leone",
+    "codigo_divisa": "sll",
+    "tasa_cambio_cop": 5.49626594
+  },
+  {
+    "alfa2": "sg",
+    "nombre": "singapore",
+    "codigo_divisa": "sgd",
+    "tasa_cambio_cop": 0.00031026982
+  },
+  {
+    "alfa2": "sx",
+    "nombre": "sint maarten (dutch part)",
+    "codigo_divisa": "ang",
+    "tasa_cambio_cop": 0.00043364684
+  },
+  {
+    "alfa2": "sk",
+    "nombre": "slovakia",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "si",
+    "nombre": "slovenia",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "sb",
+    "nombre": "solomon islands",
+    "codigo_divisa": "sbd",
+    "tasa_cambio_cop": 0.0020362685
+  },
+  {
+    "alfa2": "so",
+    "nombre": "somalia",
+    "codigo_divisa": "sos",
+    "tasa_cambio_cop": 0.1372824
+  },
+  {
+    "alfa2": "za",
+    "nombre": "south africa",
+    "codigo_divisa": "zar",
+    "tasa_cambio_cop": 0.0043050967
+  },
+  {
+    "alfa2": "gs",
+    "nombre": "south georgia and the south sandwich islands",
+    "codigo_divisa": "",
+    "tasa_cambio_cop": null
+  },
+  {
+    "alfa2": "ss",
+    "nombre": "south sudan",
+    "codigo_divisa": "ssp",
+    "tasa_cambio_cop": null
+  },
+  {
+    "alfa2": "es",
+    "nombre": "spain",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  },
+  {
+    "alfa2": "lk",
+    "nombre": "sri lanka",
+    "codigo_divisa": "lkr",
+    "tasa_cambio_cop": 0.072089226
+  },
+  {
+    "alfa2": "sd",
+    "nombre": "sudan (the)",
+    "codigo_divisa": "sdg",
+    "tasa_cambio_cop": 0.1447522
+  },
+  {
+    "alfa2": "sr",
+    "nombre": "suriname",
+    "codigo_divisa": "srd",
+    "tasa_cambio_cop": 0.0088931349
+  },
+  {
+    "alfa2": "sj",
+    "nombre": "svalbard and jan mayen",
+    "codigo_divisa": "nok",
+    "tasa_cambio_cop": 0.0024324629
+  },
+  {
+    "alfa2": "se",
+    "nombre": "sweden",
+    "codigo_divisa": "sek",
+    "tasa_cambio_cop": 0.0023001697
+  },
+  {
+    "alfa2": "ch",
+    "nombre": "switzerland",
+    "codigo_divisa": "chf",
+    "tasa_cambio_cop": 0.00019732431
+  },
+  {
+    "alfa2": "sy",
+    "nombre": "syrian arab republic",
+    "codigo_divisa": "syp",
+    "tasa_cambio_cop": 3.13496092
+  },
+  {
+    "alfa2": "tw",
+    "nombre": "taiwan (province of china)",
+    "codigo_divisa": "twd",
+    "tasa_cambio_cop": 0.0072279484
+  },
+  {
+    "alfa2": "tj",
+    "nombre": "tajikistan",
+    "codigo_divisa": "tjs",
+    "tasa_cambio_cop": 0.0024044659
+  },
+  {
+    "alfa2": " united republic of",
+    "nombre": "tanzania",
+    "codigo_divisa": "tanzanian shilling",
+    "tasa_cambio_cop": null
+  },
+  {
+    "alfa2": "th",
+    "nombre": "thailand",
+    "codigo_divisa": "thb",
+    "tasa_cambio_cop": 0.0078499637
+  },
+  {
+    "alfa2": "tl",
+    "nombre": "timor-leste",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "tg",
+    "nombre": "togo",
+    "codigo_divisa": "xof",
+    "tasa_cambio_cop": 0.13841496
+  },
+  {
+    "alfa2": "tk",
+    "nombre": "tokelau",
+    "codigo_divisa": "nzd",
+    "tasa_cambio_cop": 0.00039927393
+  },
+  {
+    "alfa2": "to",
+    "nombre": "tonga",
+    "codigo_divisa": "top",
+    "tasa_cambio_cop": 0.00057396146
+  },
+  {
+    "alfa2": "tt",
+    "nombre": "trinidad and tobago",
+    "codigo_divisa": "ttd",
+    "tasa_cambio_cop": 0.0016353221
+  },
+  {
+    "alfa2": "tn",
+    "nombre": "tunisia",
+    "codigo_divisa": "tnd",
+    "tasa_cambio_cop": 0.00071352375
+  },
+  {
+    "alfa2": "tr",
+    "nombre": "turkey",
+    "codigo_divisa": "try",
+    "tasa_cambio_cop": 0.0094501246
+  },
+  {
+    "alfa2": "tm",
+    "nombre": "turkmenistan",
+    "codigo_divisa": "tmt",
+    "tasa_cambio_cop": 0.00084565526
+  },
+  {
+    "alfa2": "tc",
+    "nombre": "turks and caicos islands (the)",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "tv",
+    "nombre": "tuvalu",
+    "codigo_divisa": "aud",
+    "tasa_cambio_cop": 0.0003720711
+  },
+  {
+    "alfa2": "ug",
+    "nombre": "uganda",
+    "codigo_divisa": "ugx",
+    "tasa_cambio_cop": 0.87763911
+  },
+  {
+    "alfa2": "ua",
+    "nombre": "ukraine",
+    "codigo_divisa": "uah",
+    "tasa_cambio_cop": 0.010043289
+  },
+  {
+    "alfa2": "ae",
+    "nombre": "united arab emirates (the)",
+    "codigo_divisa": "aed",
+    "tasa_cambio_cop": 0.00088550009
+  },
+  {
+    "alfa2": "gb",
+    "nombre": "united kingdom of great britain and northern ireland (the)",
+    "codigo_divisa": "gbp",
+    "tasa_cambio_cop": 0.00017817791
+  },
+  {
+    "alfa2": "um",
+    "nombre": "united states minor outlying islands (the)",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "us",
+    "nombre": "united states of america (the)",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "uy",
+    "nombre": "uruguay",
+    "codigo_divisa": "uyu",
+    "tasa_cambio_cop": 0.0099997592
+  },
+  {
+    "alfa2": "uz",
+    "nombre": "uzbekistan",
+    "codigo_divisa": "uzs",
+    "tasa_cambio_cop": 3.0859824
+  },
+  {
+    "alfa2": "vu",
+    "nombre": "vanuatu",
+    "codigo_divisa": "vuv",
+    "tasa_cambio_cop": 0.029082972
+  },
+  {
+    "alfa2": "ve",
+    "nombre": "venezuela (bolivarian republic of)",
+    "codigo_divisa": "vef",
+    "tasa_cambio_cop": 2343.99359872
+  },
+  {
+    "alfa2": "vn",
+    "nombre": "viet nam",
+    "codigo_divisa": "vnd",
+    "tasa_cambio_cop": 6.28291141
+  },
+  {
+    "alfa2": "vg",
+    "nombre": "virgin islands (british)",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "vi",
+    "nombre": "virgin islands (u.s.)",
+    "codigo_divisa": "usd",
+    "tasa_cambio_cop": 0.00024111643
+  },
+  {
+    "alfa2": "wf",
+    "nombre": "wallis and futuna",
+    "codigo_divisa": "xpf",
+    "tasa_cambio_cop": 0.025180459
+  },
+  {
+    "alfa2": "eh",
+    "nombre": "western sahara",
+    "codigo_divisa": "mad",
+    "tasa_cambio_cop": 0.0022165159
+  },
+  {
+    "alfa2": "ye",
+    "nombre": "yemen",
+    "codigo_divisa": "yer",
+    "tasa_cambio_cop": 0.058796101
+  },
+  {
+    "alfa2": "zm",
+    "nombre": "zambia",
+    "codigo_divisa": "zmw",
+    "tasa_cambio_cop": 0.0064412389
+  },
+  {
+    "alfa2": "zw",
+    "nombre": "zimbabwe",
+    "codigo_divisa": "zwl",
+    "tasa_cambio_cop": 16.21999649
+  },
+  {
+    "alfa2": "ax",
+    "nombre": "\u00c5land islands",
+    "codigo_divisa": "eur",
+    "tasa_cambio_cop": 0.00021101225
+  }
+]

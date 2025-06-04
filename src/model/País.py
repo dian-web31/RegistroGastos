@@ -11,3 +11,11 @@ class País:
 		self.nombre = nombre
 		self.codigo_divisa = codigo_divisa
 		self.tasa_cambio_cop = tasa_cambio_cop
+
+	def to_json(self) -> dict:
+		return {
+			'alfa2': self.alfa2,
+			'nombre': self.nombre,
+			'codigo_divisa': self.codigo_divisa,
+			'tasa_cambio_cop': self.tasa_cambio_cop
+		}
