@@ -1,7 +1,14 @@
 from datetime import date
-from controls.ControlGastos import ControlGastos
-from model.Viaje import Viaje
-from repositories.RepoViajes import RepoViajes
+from src.controls.ControlGastos import ControlGastos
+from src.model.Viaje import Viaje
+from src.repositories.RepoViajes import RepoViajes
+
+# TODO - Every date has to be in the same timezone,
+# so we can compare them correctly (both in Viajes and Gastos).
+# We can use the Colombia timezone as focus,
+# and import the `pytz` library to handle timezones;
+# we can also consume an API to get the timezone of the country
+# where the trip is being made, then convert all dates to GMT-5:00.
 
 class ControlViajes:
 	def __init__(self, repo_viajes: RepoViajes, control_gastos: ControlGastos):

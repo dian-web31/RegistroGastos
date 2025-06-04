@@ -1,4 +1,4 @@
-from controls.ControlViajes import ControlViajes
+from src.controls.ControlViajes import ControlViajes
 
 class PantallaRegistroViaje:
 	def __init__(self, control_viajes: ControlViajes):

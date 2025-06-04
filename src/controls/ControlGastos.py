@@ -1,6 +1,6 @@
-from model.Gasto import Gasto
-from model.TipoGasto import TipoGasto
-from model.MedioPago import MedioPago
+from src.model.Gasto import Gasto
+from src.model.TipoGasto import TipoGasto
+from src.model.MedioPago import MedioPago
 
 class ControlGastos:
 	def __init__(self, repo):

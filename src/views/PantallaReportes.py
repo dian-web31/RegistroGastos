@@ -1,4 +1,4 @@
-from controls import ControlReportes
+from src.controls.ControlReportes import ControlReportes
 
 class PantallaReportes:
 	def __init__(self, control_reportes: ControlReportes):

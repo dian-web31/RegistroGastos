@@ -1,32 +1,30 @@
-from views.PantallaReportes import PantallaReportes
-from views.PantallaRegistroGasto import PantallaRegistroGasto
-from views.PantallaRegistroViaje import PantallaRegistroViaje
+from src.views.PantallaReportes import PantallaReportes
+from src.views.PantallaRegistroGasto import PantallaRegistroGasto
+from src.views.PantallaRegistroViaje import PantallaRegistroViaje
 
-def main():
-    while True:
-        print('\n--- Sistema de Registro de Gastos de Viaje ---')
-        print('1. Registrar viaje')
-        print('2. Registrar gasto')
-        print('3. Ver reporte de gastos')
-        print('4. Salir')
+def main(self):
+	self.opciones = {
+		'Registrar viaje': PantallaRegistroViaje.registrar_viaje,
+		'Registrar gasto': PantallaRegistroGasto.registrar_gasto,
+		'Ver reportes por día': PantallaReportes.mostrar_reporte_diario,
+		'Ver reportes por tipo de gasto': PantallaReportes.mostrar_reporte_tipo_gasto
+	}
 
-        opcion = input('Seleccione una opción: ')
+	while True:
+		print('\n--- Sistema de registro de expensas ---')
+		for index, description in enumerate(self.opciones.keys()):
+			print(f'{index + 1}: {description}')
+		print('0. Salir')
 
-        if opcion == '1':
-            PantallaRegistroViaje.registrar_viaje()
+		opción = int(input('Seleccione una opción: '))
+		if opción == 0:
+			print('¡Hasta luego!')
+			break
 
-        elif opcion == '2':
-            PantallaRegistroGasto.registrar_gasto()
-
-        elif opcion == '3':
-            PantallaReportes.mostrar_reportes()
-
-        elif opcion == '4':
-            print('¡Hasta luego!')
-            break
-
-        else:
-            print('Opción inválida, intente nuevamente.')
+		if opción <= len(self.opciones):
+			enumerate(self.opciones.values())
+		else:
+			print('Opción inválida, intente nuevamente.')
 
 if __name__ == '__main__':
-    main()
+	main()

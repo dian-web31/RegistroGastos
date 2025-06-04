@@ -1,9 +1,9 @@
 import requests
 import json
 from datetime import date
-from model.Gasto import Gasto
-from model.País import País
-from model.Viaje import Viaje
+from src.model.Gasto import Gasto
+from src.model.País import País
+from src.model.Viaje import Viaje
 
 
 class RepoViajes:

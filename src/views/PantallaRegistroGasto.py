@@ -1,9 +1,9 @@
-from controls.ControlViajes import ControlViajes
-from model.MedioPago import MedioPago
-from model.TipoGasto import TipoGasto
+from src.controls.ControlGastos import ControlGastos
+from src.model.MedioPago import MedioPago
+from src.model.TipoGasto import TipoGasto
 
 class PantallaRegistroGasto:
-	def __init__(self, control_gastos: ControlViajes):
+	def __init__(self, control_gastos: ControlGastos):
 		self.control_gastos = control_gastos
 
 	def registrar_gasto(self) -> None:

@@ -1,6 +1,6 @@
 from datetime import date
-from model.Gasto import Gasto
-from model.País import País
+from src.model.Gasto import Gasto
+from src.model.País import País
 
 class Viaje:
 	def __init__(self, fecha_inicio: date, fecha_fin: date, presupuesto_diario: float, país: País):
