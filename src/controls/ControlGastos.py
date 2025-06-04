@@ -1,13 +1,11 @@
-from src.controls.ControlViajes import ControlViajes
 from src.repositories.RepoViajes import RepoViajes
 from src.model.Gasto import Gasto
 from src.model.TipoGasto import TipoGasto
 from src.model.MedioPago import MedioPago
 
 class ControlGastos:
-	def __init__(self, repo_viajes: RepoViajes, control_viajes: ControlViajes):
+	def __init__(self, repo_viajes: RepoViajes):
 		self.repo = repo_viajes
-		self.control_viajes = control_viajes
 
 	def convertir_cop(self, codigo_divisa: str, valor: float):
 		país = self.repo.buscar_país(codigo_divisa)

@@ -2,7 +2,6 @@ import uuid
 from datetime import date
 from src.model.TipoGasto import TipoGasto
 from src.model.MedioPago import MedioPago
-from src.model.Viaje import Viaje
 
 class Gasto:
 	def __init__(self, fecha: date, valor_cop: float, tipo_gasto: TipoGasto, medio_pago: MedioPago):

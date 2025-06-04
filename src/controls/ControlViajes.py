@@ -1,5 +1,4 @@
 from datetime import date
-from src.controls.ControlGastos import ControlGastos
 from src.model.Viaje import Viaje
 from src.repositories.RepoViajes import RepoViajes
 
