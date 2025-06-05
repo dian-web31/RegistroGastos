@@ -7,7 +7,7 @@ class PantallaRegistroViaje:
 	def registrar_viaje(self) -> None:
 		print('\n--- Registro de un viaje ---')
 
-		print('\tCódigo alfa-2 del país')
+		print('\tCódigo alfa-2 del Pais')
 		alfa2 = input('(puede buscarlo en http://utils.mucattu.com/iso_3166-1.html): ').lower()
 		fecha_inicio = input('\tFecha de inicio (YYYY-MM-DD): ')
 		fecha_fin = input('\tFecha de finalización (YYYY-MM-DD): ')
@@ -15,7 +15,7 @@ class PantallaRegistroViaje:
 		
 		try:
 			viaje = self.control_viajes.registrar_viaje(alfa2, fecha_inicio, fecha_fin, presupuesto_diario)
-			print(f'¡Viaje a {viaje.país.nombre} registrado exitosamente!')
+			print(f'¡Viaje a {viaje.Pais.nombre} registrado exitosamente!')
 			print('Disfrute de su paseo...')
 		except ValueError as e:
 			print('Error al registrar el viaje. Verifique los datos ingresados.')

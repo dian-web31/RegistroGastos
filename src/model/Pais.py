@@ -1,6 +1,6 @@
-class País:
+class Pais:
 	'''
-	Modelo de datos para representar un país.
+	Modelo de datos para representar un Pais.
 	Los atributos de la clase Pais son recolectados de la Exchange-API.
 
 	GET https://latest.currency-api.pages.dev/v1/currencies/cop.json

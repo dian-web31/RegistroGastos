@@ -14,7 +14,7 @@ class ControlViajes:
 		self.repo = repo_viajes
 			
 	def registrar_viaje(self,
-		codigo_país,
+		codigo_Pais,
 		fecha_inicio,
 		fecha_fin,
 		presupuesto_diario
@@ -24,13 +24,13 @@ class ControlViajes:
 				'La fecha de finalización debe ser posterior a la fecha de inicio'
 			)
 			
-		país = self.repo.buscar_país(codigo_país)
-		if not país:
+		Pais = self.repo.buscar_Pais(codigo_Pais)
+		if not Pais:
 			raise ValueError(
-				'No se encontró un país con el código alfa-2 proporcionado'
+				'No se encontró un Pais con el código alfa-2 proporcionado'
 			)
 		
-		viaje = Viaje(fecha_inicio, fecha_fin, presupuesto_diario, país)
+		viaje = Viaje(fecha_inicio, fecha_fin, presupuesto_diario, Pais)
 		self.repo.guardar_viaje(viaje)
 		return viaje
 			
