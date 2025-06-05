@@ -19,3 +19,45 @@ class Gasto:
 			'tipo_gasto': self.tipo_gasto.name(),
 			'medio_pago': self.medio_pago.name()
 		}
+	
+	@classmethod
+	def from_json(cls, json_data: dict) -> 'Gasto':
+		"""
+		Crea una instancia de Gasto a partir de un diccionario JSON
+		
+		Args:
+			json_data: Diccionario con los datos del gasto en formato JSON
+			
+		Returns:
+			Instancia de Gasto reconstruida
+			
+		Raises:
+			ValueError: Si faltan campos requeridos o hay formatos inválidos
+		"""
+		try:
+			# Validar campos requeridos
+			required_fields = ['id', 'fecha', 'valor_cop', 'tipo_gasto', 'medio_pago']
+			if not all(field in json_data for field in required_fields):
+				raise ValueError("Faltan campos requeridos en los datos del gasto")
+			
+			# Convertir enum strings de vuelta a los tipos enum
+			tipo_gasto = TipoGasto[json_data['tipo_gasto']]
+			medio_pago = MedioPago[json_data['medio_pago']]
+			
+			# Crear instancia
+			gasto = cls(
+				fecha=date.fromisoformat(json_data['fecha']),
+				valor_cop=float(json_data['valor_cop']),
+				tipo_gasto=tipo_gasto,
+				medio_pago=medio_pago
+			)
+			
+			# Restaurar el ID original (el constructor genera uno nuevo)
+			gasto.id = json_data['id']
+			
+			return gasto
+			
+		except KeyError as e:
+			raise ValueError(f"Valor de enumeración inválido: {str(e)}") from e
+		except ValueError as e:
+			raise ValueError(f"Error en formato de datos: {str(e)}") from e

@@ -31,3 +31,18 @@ class País:
 			'tasa_cambio_cop': self.tasa_cambio_cop,
 			'fecha_tasa': self.fecha_tasa.isoformat()
 		}
+	
+	@classmethod
+	def from_json(cls, json_data: dict) -> 'País':
+		"""
+		Crea una instancia de País a partir de un diccionario JSON
+		:param json_data: Diccionario con los datos del país en formato JSON
+		:return: Instancia de País
+		"""
+		return cls(
+			alfa2=json_data['alfa2'],
+			nombre=json_data['nombre'],
+			codigo_divisa=json_data['codigo_divisa'],
+			tasa_cambio_cop=json_data['tasa_cambio_cop'],
+			fecha_tasa=date.fromisoformat(json_data['fecha_tasa'])
+		)

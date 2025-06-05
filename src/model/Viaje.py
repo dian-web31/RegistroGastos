@@ -37,3 +37,24 @@ class Viaje:
 			'pais': self.país.to_json(),
 			'gastos': [gasto.to_json() for gasto in self.gastos]
 		}
+	
+	@classmethod
+	def from_json(cls, json_data: dict) -> 'Viaje':
+		"""
+		Crea una instancia de Viaje a partir de un diccionario JSON
+		:param json_data: Diccionario con los datos del viaje en formato JSON
+		:return: Instancia de Viaje
+		"""
+		viaje = cls(
+			fecha_inicio=date.fromisoformat(json_data['fecha_inicio']),
+			fecha_fin=date.fromisoformat(json_data['fecha_fin']),
+			presupuesto_diario=json_data['presupuesto_diario'],
+			país=País.from_json(json_data['pais'])
+		)
+		
+		# Reconstruir los gastos si existen
+		if 'gastos' in json_data:
+			for gasto_json in json_data['gastos']:
+				viaje.agregar_gasto(Gasto.from_json(gasto_json))
+		
+		return viaje

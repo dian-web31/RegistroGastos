@@ -1,4 +1,4 @@
-from src.controls import ControlViajes
+# from src.controls import ControlViajes
 from src.repositories.RepoViajes import RepoViajes
 from src.model.Gasto import Gasto
 from src.model.TipoGasto import TipoGasto
@@ -8,9 +8,9 @@ class ControlGastos:
 	def __init__(self, repo_viajes: RepoViajes):
 		self.repo_viajes = repo_viajes
 
-	def convertir_cop(self, codigo_divisa: str, valor: float):
-		país = self.repo_viajes.buscar_país(codigo_divisa)
-		return valor * país.tasa_cambio_cop
+	# def convertir_cop(self, codigo_divisa: str, valor: float):
+	# 	país = self.repo_viajes.buscar_país(codigo_divisa)
+	# 	return valor * país.tasa_cambio_cop
 
 	def registrar_gasto(self, fecha, valor, tipo, medio):
 		viaje = self.repo_viajes.buscar_viaje(fecha)
@@ -26,7 +26,6 @@ class ControlGastos:
 				'Tipo de gasto inválido. ',
 				f'Se esperaba un número entre 1 y {len(TipoGasto)}.'
 			)
-		
 		try:
 			medio_pago = MedioPago(medio)
 		except ValueError:
@@ -34,11 +33,13 @@ class ControlGastos:
 				'Medio de pago inválido. ',
 				f'Se esperaba un número entre 1 y {len(MedioPago)}.'
 			)
-		
 		país = self.repo_viajes.buscar_país(viaje.get_alfa2_país())
-		valor_cop = self.convertir_cop(viaje.get_alfa2_país(), valor)
+		if país.tasa_cambio_cop is None:
+			raise ValueError("No hay tasa de cambio disponible para este país")
+		
+		valor_cop = valor * país.tasa_cambio_cop
 
-		gasto = Gasto(fecha, valor_cop, tipo_gasto, medio_pago, viaje)
+		gasto = Gasto(fecha, valor_cop, tipo_gasto, medio_pago)
 		viaje.agregar_gasto(gasto)
-		self.repo_viajes.guardar_gasto(gasto.__dict__)
+		self.repo_viajes.guardar_gasto(gasto.to_json())
 		return gasto

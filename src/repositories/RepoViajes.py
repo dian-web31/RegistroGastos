@@ -34,8 +34,12 @@ class RepoViajes:
 		try:
 			api_cargada = self.cargar_países_api()
 			if not api_cargada:
-				self.cargar_json('países.json')
-			self.cargar_json('viajes.json')
+				países_data = self.cargar_json('países.json')
+				self.países = {p.alfa2: p for p in países_data}
+			
+			# 2. Cargar viajes
+			viajes_data = self.cargar_json('viajes.json')
+			self.viajes = {v.fecha_inicio: v for v in viajes_data}
 			return True
 		except Exception as e:
 			print(e)
@@ -68,7 +72,7 @@ class RepoViajes:
 				alfa2,
 				info_países[alfa2]['country_name'],
 				info_países[alfa2]['currency_code'],
-				tasa_cop
+				tasa_cop,
 			)
 			self.países[alfa2] = país
 		
@@ -94,28 +98,24 @@ class RepoViajes:
 			
 	def guardar_gasto(self, gasto: Gasto) -> bool:
 		'''
-		:return bool: `True` si el gasto fue guardado correctamente;
-		`False` si no existe un viaje correspondiente a la fecha.
+		:return bool: `True` si el gasto fue guardado correctamente
 		'''
-		gasto_existente = self.buscar_viaje(gasto.fecha)
+		viaje = self.buscar_viaje(gasto.fecha)
+		if viaje is None:
+			return False
 		
-		if gasto_existente is not None:
-			self.viajes[gasto.fecha] = gasto
-			
-			viajes_json = [v.to_json() for v in self.viajes.values()]
-			self.guardar_json(viajes_json, 'viajes.json')
-			
-			return True
-		return False
-			
+		viaje.agregar_gasto(gasto)
+		return self.guardar_viaje(viaje)  # Esto guardará el viaje con todos sus gastos
+
 	def buscar_viaje(self, fecha: date) -> Viaje:
-		if fecha in self.países:
-			return self.países[fecha]
+		# 1. Verificar fecha exacta
+		if fecha in self.viajes:
+			return self.viajes[fecha]
 		
-		# Buscamos el viaje que siga vigente en la fecha indicada.
-		fecha_anterior = max([f for f in self.viajes if f < fecha])
-		if self.viajes[fecha_anterior].get_fecha_fin() > fecha:
-			return self.viajes[fecha_anterior]
+		# 2. Buscar en rangos de fechas
+		for viaje in self.viajes.values():
+			if viaje.fecha_inicio <= fecha <= viaje.get_fecha_fin():
+				return viaje
 		
 		return None
 
@@ -136,7 +136,14 @@ class RepoViajes:
 	def cargar_json(self, filename: str) -> dict:
 		try:
 			with open(f'{os.getenv("url_data")}/{filename}', 'r') as file:
-				return json.load(file)
+				data = json.load(file)
+				
+				if filename == 'viajes.json':
+					return [Viaje.from_json(v) for v in data]
+				elif filename == 'países.json':
+					return [País.from_json(p) for p in data]
+				
+				return data
 		except Exception as e:
 			print(f"Error al cargar el archivo {filename}: {e}")
-			return {}
+			return []
