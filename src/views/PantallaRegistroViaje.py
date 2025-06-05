@@ -16,7 +16,7 @@ class PantallaRegistroViaje:
 		
 		try:
 			viaje = self.control_viajes.registrar_viaje(alfa2, fecha_inicio, fecha_fin, presupuesto_diario)
-			print(f'¡Viaje a {viaje.país.nombre} registrado exitosamente!')
+			print(f'¡Viaje registrado exitosamente!')
 			print('Disfrute de su paseo...')
 		except ValueError as e:
 			print('Error al registrar el viaje. Verifique los datos ingresados.')

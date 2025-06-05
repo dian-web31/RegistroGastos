@@ -22,12 +22,14 @@ class RepoViajes:
 	
 	def cargar(self) -> bool:
 		'''
-		Carga los datos del modelo desde los archivos JSON.\n
-		En primera instancia, se intenta cargar los países desde la API \
-		https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies.json.
-		Se mantiene una copia estructurada de la información en `países.json`.\n
+		Carga los datos de países desde `países.json`.
+
+		En primera instancia, se intenta cargar los países desde la API.
+		Se mantiene una copia estructurada de esta en el JSON.
+		- API: https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies.json.
+
 		:return bool: `True` si se cargó la información contenida en los JSON;
-		`False` si los archivos JSON son inválidos.
+		`False` si el contenido JSON es inválido.
 		'''
 		try:
 			api_cargada = self.cargar_países_api()
@@ -43,7 +45,9 @@ class RepoViajes:
 	# no de la carga del archivo JSON.
 	def cargar_países_api(self) -> bool:
 		'''
-		Guarda tasas de cambio desde una API externa
+		Carga en memoria todos los países desde una API externa
+		y guarda una copia en `países.json`.
+
 		:return bool: `True` si la API dio respuesta;
 		`False` si la comunicación falló.
 		'''
@@ -73,16 +77,36 @@ class RepoViajes:
 		return fue_guardado
 
 	def guardar_viaje(self, viaje: Viaje) -> bool:
-		'''Guarda un nuevo viaje'''
-		self.viajes[viaje.fecha_inicio] = viaje
+		'''
+		:return bool: `True` si el viaje fue guardado correctamente;
+		`False` si ya existe un viaje durante la fecha.
+		'''
+		viaje_existente = self.buscar_viaje(viaje.fecha_inicio)
 		
-		viajes_json = [v.to_json() for v in self.viajes.values()]
-		fue_guardado = self.guardar_json(viajes_json, 'viajes.json')
-		return fue_guardado
+		if viaje_existente is not None:
+			self.viajes[viaje.fecha_inicio] = viaje
+			
+			viajes_json = [v.to_json() for v in self.viajes.values()]
+			self.guardar_json(viajes_json, 'viajes.json')
+			
+			return True
+		return False
 			
 	def guardar_gasto(self, gasto: Gasto) -> bool:
-		'''Guarda un gasto asociado a un viaje'''
-		pass
+		'''
+		:return bool: `True` si el gasto fue guardado correctamente;
+		`False` si no existe un viaje correspondiente a la fecha.
+		'''
+		gasto_existente = self.buscar_viaje(gasto.fecha)
+		
+		if gasto_existente is not None:
+			self.viajes[gasto.fecha] = gasto
+			
+			viajes_json = [v.to_json() for v in self.viajes.values()]
+			self.guardar_json(viajes_json, 'viajes.json')
+			
+			return True
+		return False
 			
 	def buscar_viaje(self, fecha: date) -> Viaje:
 		if fecha in self.países:
