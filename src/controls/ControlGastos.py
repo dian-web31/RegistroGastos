@@ -8,10 +8,6 @@ class ControlGastos:
 	def __init__(self, repo_viajes: RepoViajes):
 		self.repo_viajes = repo_viajes
 
-	# def convertir_cop(self, codigo_divisa: str, valor: float):
-	# 	país = self.repo_viajes.buscar_país(codigo_divisa)
-	# 	return valor * país.tasa_cambio_cop
-
 	def registrar_gasto(self, fecha, valor, tipo, medio):
 		viaje = self.repo_viajes.buscar_viaje(fecha)
 		if viaje is None:
