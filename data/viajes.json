@@ -8,7 +8,7 @@
       "nombre": "colombia",
       "codigo_divisa": "cop",
       "tasa_cambio_cop": 1,
-      "fecha_tasa": "2025-06-05"
+      "fecha_tasa": "2025-06-06"
     },
     "gastos": [
       {
@@ -59,6 +59,27 @@
         "valor_cop": 10000.0,
         "tipo_gasto": "COMPRAS",
         "medio_pago": "TARJETA"
+      }
+    ]
+  },
+  {
+    "fecha_inicio": "2025-12-01",
+    "fecha_fin": "2025-12-20",
+    "presupuesto_diario": 100000.0,
+    "pais": {
+      "alfa2": "pt",
+      "nombre": "portugal",
+      "codigo_divisa": "eur",
+      "tasa_cambio_cop": 0.00021271618,
+      "fecha_tasa": "2025-06-06"
+    },
+    "gastos": [
+      {
+        "id": "4fdf93a5-ca68-4a04-b783-db6dc372014f",
+        "fecha": "2025-12-02",
+        "valor_cop": 0.063931785,
+        "tipo_gasto": "TRANSPORTE",
+        "medio_pago": "EFECTIVO"
       }
     ]
   }

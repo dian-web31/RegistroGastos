@@ -2,6 +2,8 @@ from src.controls.ControlGastos import ControlGastos
 from src.model.MedioPago import MedioPago
 from src.model.TipoGasto import TipoGasto
 
+from datetime import date
+
 class PantallaRegistroGasto:
 	def __init__(self, control_gastos: ControlGastos):
 		self.control_gastos = control_gastos
@@ -9,7 +11,7 @@ class PantallaRegistroGasto:
 	def registrar_gasto(self) -> None:
 		print('\n--- Registro de un gasto ---')
 
-		fecha = input('Fecha (YYYY-MM-DD): ')
+		fecha =  date.fromisoformat(input('Fecha (YYYY-MM-DD): '))
 		valor = float(input('Valor del gasto en moneda local: '))
 		print('Tipos de gasto:')
 		for tipo in TipoGasto:

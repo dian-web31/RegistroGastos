@@ -19,7 +19,7 @@ class RepoViajes:
 		self.países: dict[str, País] = {}
 
 		self.cargar()
-	
+
 	def cargar(self) -> bool:
 		'''
 		Carga los datos de países desde `países.json`.
@@ -36,7 +36,7 @@ class RepoViajes:
 			if not api_cargada:
 				países: list[País] = self.cargar_países()
 				self.países = {p.alfa2: p for p in países}
-			
+
 			# 2. Cargar viajes
 			viajes: list[Viaje] = self.cargar_viajes()
 			self.viajes = {v.fecha_inicio.isoformat(): v for v in viajes}
@@ -77,7 +77,7 @@ class RepoViajes:
 				fecha_tasa
 			)
 			self.países[alfa2] = país
-		
+
 		países_json = [p.to_json() for p in self.países.values()]
 		fue_guardado = self.guardar_json(países_json, 'países.json')
 		return fue_guardado
@@ -88,48 +88,44 @@ class RepoViajes:
 		`False` si ya existe un viaje durante la fecha.
 		'''
 		viaje_existente = self.buscar_viaje(viaje.fecha_inicio)
-		
+
 		if viaje_existente is None:
 			self.viajes[viaje.fecha_inicio.isoformat()] = viaje
-			
+
 			viajes_json = [v.to_json() for v in self.viajes.values()]
 			self.guardar_json(viajes_json, 'viajes.json')
-			
+
 			return True
 		return False
-			
+
 	def guardar_gasto(self, gasto: Gasto) -> bool:
 		'''
 		:return bool: `True` si el gasto fue guardado correctamente
 		'''
-		viaje = self.buscar_viaje(gasto.fecha.isoformat())
+
+		viaje = self.buscar_viaje(gasto.fecha)
 		if viaje is None:
 			return False
-		
+
 		viaje.agregar_gasto(gasto)
 
 		viajes_json = [v.to_json() for v in self.viajes.values()]
 		self.guardar_json(viajes_json, 'viajes.json')
-		
+
 		return True
 
-	def buscar_viaje(self, fecha: str) -> Viaje:
-		# 1. Verificar fecha exacta
+	def buscar_viaje(self, fecha: date) -> Viaje:
 		if fecha in self.viajes:
 			return self.viajes[fecha]
-		
-		# Buscamos el viaje que siga vigente en la fecha indicada.
-		fecha = date.fromisoformat(fecha)
+
 		for f in self.viajes:
 			if self.viajes[f].fecha_inicio < fecha <= self.viajes[f].fecha_fin:
 				return self.viajes[f]
 
-		return None
 
 	def buscar_país(self, alfa2: str) -> País:
 		if alfa2 in self.países:
 			return self.países[alfa2]
-		return None
 
 	def guardar_json(self, entries: dict, filename: str) -> bool:
 		try:

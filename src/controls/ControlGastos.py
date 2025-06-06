@@ -8,30 +8,24 @@ class ControlGastos:
 	def __init__(self, repo_viajes: RepoViajes):
 		self.repo_viajes = repo_viajes
 
-	def registrar_gasto(self, fecha, valor, tipo, medio):
+	def registrar_gasto(self, fecha: date, valor, tipo, medio):
 		viaje = self.repo_viajes.buscar_viaje(fecha)
 		if viaje is None:
 			raise ValueError(
 				'No existe un viaje registrado para la fecha proporcionada.'
 			)
 
-		fecha = date.fromisoformat(fecha)
-
 		try:
 			tipo_gasto = TipoGasto(tipo)
 		except ValueError:
-			print(
-				'Tipo de gasto inválido. ',
-				f'Se esperaba un número entre 1 y {len(TipoGasto)}.'
-			)
+			raise ValueError(f"Tipo de gasto inválido: el valor '{tipo}' no es válido.") \
+				from None
 		
 		try:
 			medio_pago = MedioPago(medio)
 		except ValueError:
-			print(
-				'Medio de pago inválido. ',
-				f'Se esperaba un número entre 1 y {len(MedioPago)}.'
-			)
+			raise ValueError(f"Medio de pago inválido: el valor '{medio}' no es válido.") \
+				from None
 		
 		país = self.repo_viajes.buscar_país(viaje.get_alfa2_país())
 		if país.tasa_cambio_cop is None:
