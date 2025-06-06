@@ -8,9 +8,10 @@ class PantallaReportes:
 		print('\n--- Reporte de gastos por día ---')
 
 		fecha = input('Fecha en la que estuvo en el viaje (YYYY-MM-DD): ')
-		reporte = self.control_reportes.reportar_gastos_diarios(fecha)
+		print()
 
-		print('Los gastos por día fueron:')
+		reporte = self.control_reportes.reportar_gastos_diarios(fecha)
+		print('Los gastos hechos por día en el viaje fueron:')
 		for fecha, valor in reporte.items():
 			print(f'{fecha}: ${valor:.2f} COP')
 
@@ -18,8 +19,10 @@ class PantallaReportes:
 		print('\n--- Reporte de gastos por tipo de gasto ---')
 
 		fecha = input('Fecha en la que estuvo en el viaje (YYYY-MM-DD): ')
-		reporte = self.control_reportes.reportar_gastos_por_tipo(fecha)
+		print()
 
-		print('Los gastos por tipo fueron:')
+		reporte = self.control_reportes.reportar_gastos_por_tipo(fecha)
+		print('Los gastos hechos por concepto o tipo en el viaje fueron:')
 		for tipo, valor in reporte.items():
-			print(f'{tipo}: ${valor:.2f} COP')
+			valor = f'{valor:.2f}'
+			print(f'- {tipo + ":" :<20} {"$" + valor + " COP" :>20}')

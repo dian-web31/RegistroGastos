@@ -21,8 +21,8 @@ class Aplicacion:
 		self.opciones = {
 			'Registrar viaje': self.pantalla_viajes.registrar_viaje,
 			'Registrar gasto': self.pantalla_gastos.registrar_gasto,
-			'Ver reportes por día': self.pantalla_reportes.mostrar_reporte_diario,
-			'Ver reportes por tipo de gasto': self.pantalla_reportes.mostrar_reporte_tipo
+			'Ver un reporte por día': self.pantalla_reportes.mostrar_reporte_diario,
+			'Ver un reporte por tipo de gasto': self.pantalla_reportes.mostrar_reporte_tipo
 		}
 
 		while True:
