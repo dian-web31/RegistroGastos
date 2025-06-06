@@ -3,1470 +3,1715 @@
     "alfa2": "af",
     "nombre": "afghanistan",
     "codigo_divisa": "afn",
-    "tasa_cambio_cop": 0.016743789
+    "tasa_cambio_cop": 0.016914997,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "al",
     "nombre": "albania",
     "codigo_divisa": "all",
-    "tasa_cambio_cop": 0.020757935
+    "tasa_cambio_cop": 0.020835353,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "dz",
     "nombre": "algeria",
     "codigo_divisa": "dzd",
-    "tasa_cambio_cop": 0.031759687
+    "tasa_cambio_cop": 0.032025578,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "as",
     "nombre": "american samoa",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ad",
     "nombre": "andorra",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ao",
     "nombre": "angola",
     "codigo_divisa": "aoa",
-    "tasa_cambio_cop": 0.22193859
+    "tasa_cambio_cop": 0.22396618,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ai",
     "nombre": "anguilla",
     "codigo_divisa": "xcd",
-    "tasa_cambio_cop": 0.00065240201
+    "tasa_cambio_cop": 0.0006586972,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "aq",
     "nombre": "antarctica",
     "codigo_divisa": "",
-    "tasa_cambio_cop": null
+    "tasa_cambio_cop": null,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ag",
     "nombre": "antigua and barbuda",
     "codigo_divisa": "xcd",
-    "tasa_cambio_cop": 0.00065240201
+    "tasa_cambio_cop": 0.0006586972,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ar",
     "nombre": "argentina",
     "codigo_divisa": "ars",
-    "tasa_cambio_cop": 0.28468126
+    "tasa_cambio_cop": 0.28833335,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "am",
     "nombre": "armenia",
     "codigo_divisa": "amd",
-    "tasa_cambio_cop": 0.092374547
+    "tasa_cambio_cop": 0.093327647,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "aw",
     "nombre": "aruba",
     "codigo_divisa": "awg",
-    "tasa_cambio_cop": 0.00043159841
+    "tasa_cambio_cop": 0.00043551044,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "au",
     "nombre": "australia",
     "codigo_divisa": "aud",
-    "tasa_cambio_cop": 0.0003720711
+    "tasa_cambio_cop": 0.00037438652,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "at",
     "nombre": "austria",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "az",
     "nombre": "azerbaijan",
     "codigo_divisa": "azn",
-    "tasa_cambio_cop": 0.0004098979
+    "tasa_cambio_cop": 0.00041361332,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bs",
     "nombre": "bahamas (the)",
     "codigo_divisa": "bsd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bh",
     "nombre": "bahrain",
     "codigo_divisa": "bhd",
-    "tasa_cambio_cop": 9.0659778e-05
+    "tasa_cambio_cop": 9.1481522e-05,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bd",
     "nombre": "bangladesh",
     "codigo_divisa": "bdt",
-    "tasa_cambio_cop": 0.029424452
+    "tasa_cambio_cop": 0.029718419,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bb",
     "nombre": "barbados",
     "codigo_divisa": "bbd",
-    "tasa_cambio_cop": 0.00048223286
+    "tasa_cambio_cop": 0.00048660384,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "by",
     "nombre": "belarus",
     "codigo_divisa": "byn",
-    "tasa_cambio_cop": 0.00078890509
+    "tasa_cambio_cop": 0.00079681543,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "be",
     "nombre": "belgium",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bz",
     "nombre": "belize",
     "codigo_divisa": "bzd",
-    "tasa_cambio_cop": 0.00048358683
+    "tasa_cambio_cop": 0.0004893264,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bj",
     "nombre": "benin",
     "codigo_divisa": "xof",
-    "tasa_cambio_cop": 0.13841496
+    "tasa_cambio_cop": 0.13978834,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bm",
     "nombre": "bermuda",
     "codigo_divisa": "bmd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bt",
     "nombre": "bhutan",
     "codigo_divisa": "btn",
-    "tasa_cambio_cop": 0.020602116
+    "tasa_cambio_cop": 0.020896088,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bo",
     "nombre": "bolivia (plurinational state of)",
     "codigo_divisa": "bob",
-    "tasa_cambio_cop": 0.0016662259
+    "tasa_cambio_cop": 0.0016802907,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": " sint eustatius and saba",
     "nombre": "bonaire",
     "codigo_divisa": "us dollar",
-    "tasa_cambio_cop": null
+    "tasa_cambio_cop": null,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ba",
     "nombre": "bosnia and herzegovina",
     "codigo_divisa": "bam",
-    "tasa_cambio_cop": 0.00041270409
+    "tasa_cambio_cop": 0.000416799,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bw",
     "nombre": "botswana",
     "codigo_divisa": "bwp",
-    "tasa_cambio_cop": 0.0032394954
+    "tasa_cambio_cop": 0.0032705551,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bv",
     "nombre": "bouvet island",
     "codigo_divisa": "nok",
-    "tasa_cambio_cop": 0.0024324629
+    "tasa_cambio_cop": 0.002459187,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "br",
     "nombre": "brazil",
     "codigo_divisa": "brl",
-    "tasa_cambio_cop": 0.0013683489
+    "tasa_cambio_cop": 0.001370718,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "io",
     "nombre": "british indian ocean territory (the)",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bn",
     "nombre": "brunei darussalam",
     "codigo_divisa": "bnd",
-    "tasa_cambio_cop": 0.00031026982
+    "tasa_cambio_cop": 0.00031285856,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bg",
     "nombre": "bulgaria",
     "codigo_divisa": "bgn",
-    "tasa_cambio_cop": 0.00041270409
+    "tasa_cambio_cop": 0.000416799,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bf",
     "nombre": "burkina faso",
     "codigo_divisa": "xof",
-    "tasa_cambio_cop": 0.13841496
+    "tasa_cambio_cop": 0.13978834,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bi",
     "nombre": "burundi",
     "codigo_divisa": "bif",
-    "tasa_cambio_cop": 0.71708026
+    "tasa_cambio_cop": 0.72414363,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "cv",
     "nombre": "cabo verde",
     "codigo_divisa": "cve",
-    "tasa_cambio_cop": 0.023268321
+    "tasa_cambio_cop": 0.023499193,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "kh",
     "nombre": "cambodia",
     "codigo_divisa": "khr",
-    "tasa_cambio_cop": 0.96364962
+    "tasa_cambio_cop": 0.97781144,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "cm",
     "nombre": "cameroon",
     "codigo_divisa": "xaf",
-    "tasa_cambio_cop": 0.13841496
+    "tasa_cambio_cop": 0.13978834,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ca",
     "nombre": "canada",
     "codigo_divisa": "cad",
-    "tasa_cambio_cop": 0.0003309315
+    "tasa_cambio_cop": 0.00033279097,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ky",
     "nombre": "cayman islands (the)",
     "codigo_divisa": "kyd",
-    "tasa_cambio_cop": 0.00019963255
+    "tasa_cambio_cop": 0.00020231792,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "cf",
     "nombre": "central african republic (the)",
     "codigo_divisa": "xaf",
-    "tasa_cambio_cop": 0.13841496
+    "tasa_cambio_cop": 0.13978834,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "td",
     "nombre": "chad",
     "codigo_divisa": "xaf",
-    "tasa_cambio_cop": 0.13841496
+    "tasa_cambio_cop": 0.13978834,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "cl",
     "nombre": "chile",
     "codigo_divisa": "clp",
-    "tasa_cambio_cop": 0.22656219
+    "tasa_cambio_cop": 0.22829795,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "cn",
     "nombre": "china",
     "codigo_divisa": "cny",
-    "tasa_cambio_cop": 0.0017361463
+    "tasa_cambio_cop": 0.0017472449,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "cx",
     "nombre": "christmas island",
     "codigo_divisa": "aud",
-    "tasa_cambio_cop": 0.0003720711
+    "tasa_cambio_cop": 0.00037438652,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "cc",
     "nombre": "cocos (keeling) islands (the)",
     "codigo_divisa": "aud",
-    "tasa_cambio_cop": 0.0003720711
+    "tasa_cambio_cop": 0.00037438652,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "co",
     "nombre": "colombia",
     "codigo_divisa": "cop",
-    "tasa_cambio_cop": 1
+    "tasa_cambio_cop": 1,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "km",
     "nombre": "comoros (the)",
     "codigo_divisa": "kmf",
-    "tasa_cambio_cop": 0.10381122
+    "tasa_cambio_cop": 0.10484125,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "cd",
     "nombre": "congo (the democratic republic of the)",
     "codigo_divisa": "cdf",
-    "tasa_cambio_cop": 0.70010254
+    "tasa_cambio_cop": 0.70667038,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "cg",
     "nombre": "congo (the)",
     "codigo_divisa": "xaf",
-    "tasa_cambio_cop": 0.13841496
+    "tasa_cambio_cop": 0.13978834,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ck",
     "nombre": "cook islands (the)",
     "codigo_divisa": "nzd",
-    "tasa_cambio_cop": 0.00039927393
+    "tasa_cambio_cop": 0.00040329441,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "cr",
     "nombre": "costa rica",
     "codigo_divisa": "crc",
-    "tasa_cambio_cop": 0.12248944
+    "tasa_cambio_cop": 0.12375898,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "hr",
     "nombre": "croatia",
     "codigo_divisa": "hrk",
-    "tasa_cambio_cop": 0.0015898718
+    "tasa_cambio_cop": 0.0016056467,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "cu",
     "nombre": "cuba",
     "codigo_divisa": "cup",
-    "tasa_cambio_cop": 0.005779298
+    "tasa_cambio_cop": 0.0058351242,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "cw",
     "nombre": "cura\ufffdao",
     "codigo_divisa": "ang",
-    "tasa_cambio_cop": 0.00043364684
+    "tasa_cambio_cop": 0.00043817276,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "cy",
     "nombre": "cyprus",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ci",
     "nombre": "c\ufffdte d'ivoire",
     "codigo_divisa": "xof",
-    "tasa_cambio_cop": 0.13841496
+    "tasa_cambio_cop": 0.13978834,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "dk",
     "nombre": "denmark",
     "codigo_divisa": "dkk",
-    "tasa_cambio_cop": 0.0015741981
+    "tasa_cambio_cop": 0.0015897075,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "dj",
     "nombre": "djibouti",
     "codigo_divisa": "djf",
-    "tasa_cambio_cop": 0.042893704
+    "tasa_cambio_cop": 0.043312728,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "dm",
     "nombre": "dominica",
     "codigo_divisa": "xcd",
-    "tasa_cambio_cop": 0.00065240201
+    "tasa_cambio_cop": 0.0006586972,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "do",
     "nombre": "dominican republic (the)",
     "codigo_divisa": "dop",
-    "tasa_cambio_cop": 0.014190338
+    "tasa_cambio_cop": 0.014351944,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ec",
     "nombre": "ecuador",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "eg",
     "nombre": "egypt",
     "codigo_divisa": "egp",
-    "tasa_cambio_cop": 0.011980143
+    "tasa_cambio_cop": 0.012082928,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "sv",
     "nombre": "el salvador",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gq",
     "nombre": "equatorial guinea",
     "codigo_divisa": "xaf",
-    "tasa_cambio_cop": 0.13841496
+    "tasa_cambio_cop": 0.13978834,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "er",
     "nombre": "eritrea",
     "codigo_divisa": "ern",
-    "tasa_cambio_cop": 0.0036167465
+    "tasa_cambio_cop": 0.0036495288,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ee",
     "nombre": "estonia",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "et",
     "nombre": "ethiopia",
     "codigo_divisa": "etb",
-    "tasa_cambio_cop": 0.032775211
+    "tasa_cambio_cop": 0.032746895,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "fk",
     "nombre": "falkland islands (the) [malvinas]",
     "codigo_divisa": "fkp",
-    "tasa_cambio_cop": 0.00017817791
+    "tasa_cambio_cop": 0.00017959105,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "fo",
     "nombre": "faroe islands (the)",
     "codigo_divisa": "dkk",
-    "tasa_cambio_cop": 0.0015741981
+    "tasa_cambio_cop": 0.0015897075,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "fj",
     "nombre": "fiji",
     "codigo_divisa": "fjd",
-    "tasa_cambio_cop": 0.0005425431
+    "tasa_cambio_cop": 0.00054690291,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "fi",
     "nombre": "finland",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "fr",
     "nombre": "france",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gf",
     "nombre": "french guiana",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "pf",
     "nombre": "french polynesia",
     "codigo_divisa": "xpf",
-    "tasa_cambio_cop": 0.025180459
+    "tasa_cambio_cop": 0.025430304,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "tf",
     "nombre": "french southern territories (the)",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ga",
     "nombre": "gabon",
     "codigo_divisa": "xaf",
-    "tasa_cambio_cop": 0.13841496
+    "tasa_cambio_cop": 0.13978834,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gm",
     "nombre": "gambia (the)",
     "codigo_divisa": "gmd",
-    "tasa_cambio_cop": 0.017457908
+    "tasa_cambio_cop": 0.017616503,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ge",
     "nombre": "georgia",
     "codigo_divisa": "gel",
-    "tasa_cambio_cop": 0.00065847943
+    "tasa_cambio_cop": 0.00066443997,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "de",
     "nombre": "germany",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gh",
     "nombre": "ghana",
     "codigo_divisa": "ghs",
-    "tasa_cambio_cop": 0.0024723459
+    "tasa_cambio_cop": 0.0024936002,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gi",
     "nombre": "gibraltar",
     "codigo_divisa": "gip",
-    "tasa_cambio_cop": 0.00017817791
+    "tasa_cambio_cop": 0.00017959105,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gr",
     "nombre": "greece",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gl",
     "nombre": "greenland",
     "codigo_divisa": "dkk",
-    "tasa_cambio_cop": 0.0015741981
+    "tasa_cambio_cop": 0.0015897075,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gd",
     "nombre": "grenada",
     "codigo_divisa": "xcd",
-    "tasa_cambio_cop": 0.00065240201
+    "tasa_cambio_cop": 0.0006586972,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gp",
     "nombre": "guadeloupe",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gu",
     "nombre": "guam",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gt",
     "nombre": "guatemala",
     "codigo_divisa": "gtq",
-    "tasa_cambio_cop": 0.0018504948
+    "tasa_cambio_cop": 0.0018690554,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gg",
     "nombre": "guernsey",
     "codigo_divisa": "gbp",
-    "tasa_cambio_cop": 0.00017817791
+    "tasa_cambio_cop": 0.00017959105,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gn",
     "nombre": "guinea",
     "codigo_divisa": "gnf",
-    "tasa_cambio_cop": 2.0903629
+    "tasa_cambio_cop": 2.10924439,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gw",
     "nombre": "guinea-bissau",
     "codigo_divisa": "xof",
-    "tasa_cambio_cop": 0.13841496
+    "tasa_cambio_cop": 0.13978834,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gy",
     "nombre": "guyana",
     "codigo_divisa": "gyd",
-    "tasa_cambio_cop": 0.050326177
+    "tasa_cambio_cop": 0.050976443,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ht",
     "nombre": "haiti",
     "codigo_divisa": "htg",
-    "tasa_cambio_cop": 0.03152274
+    "tasa_cambio_cop": 0.031812993,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "hm",
     "nombre": "heard island and mcdonald islands",
     "codigo_divisa": "aud",
-    "tasa_cambio_cop": 0.0003720711
+    "tasa_cambio_cop": 0.00037438652,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "va",
     "nombre": "holy see (the)",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "hn",
     "nombre": "honduras",
     "codigo_divisa": "hnl",
-    "tasa_cambio_cop": 0.006277675
+    "tasa_cambio_cop": 0.0063414593,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "hk",
     "nombre": "hong kong",
     "codigo_divisa": "hkd",
-    "tasa_cambio_cop": 0.0018912406
+    "tasa_cambio_cop": 0.0019088417,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "hu",
     "nombre": "hungary",
     "codigo_divisa": "huf",
-    "tasa_cambio_cop": 0.085071281
+    "tasa_cambio_cop": 0.085908359,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "is",
     "nombre": "iceland",
     "codigo_divisa": "isk",
-    "tasa_cambio_cop": 0.030472521
+    "tasa_cambio_cop": 0.030816785,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "in",
     "nombre": "india",
     "codigo_divisa": "inr",
-    "tasa_cambio_cop": 0.020602116
+    "tasa_cambio_cop": 0.020896088,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "id",
     "nombre": "indonesia",
     "codigo_divisa": "idr",
-    "tasa_cambio_cop": 3.92817813
+    "tasa_cambio_cop": 3.96263771,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ir",
     "nombre": "iran (islamic republic of)",
     "codigo_divisa": "irr",
-    "tasa_cambio_cop": 10.15732588
+    "tasa_cambio_cop": 10.25967155,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "iq",
     "nombre": "iraq",
     "codigo_divisa": "iqd",
-    "tasa_cambio_cop": 0.31543803
+    "tasa_cambio_cop": 0.3186568,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ie",
     "nombre": "ireland",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "im",
     "nombre": "isle of man",
     "codigo_divisa": "gbp",
-    "tasa_cambio_cop": 0.00017817791
+    "tasa_cambio_cop": 0.00017959105,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "il",
     "nombre": "israel",
     "codigo_divisa": "ils",
-    "tasa_cambio_cop": 0.00084896996
+    "tasa_cambio_cop": 0.00084825195,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "it",
     "nombre": "italy",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "jm",
     "nombre": "jamaica",
     "codigo_divisa": "jmd",
-    "tasa_cambio_cop": 0.03839134
+    "tasa_cambio_cop": 0.038781943,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "jp",
     "nombre": "japan",
     "codigo_divisa": "jpy",
-    "tasa_cambio_cop": 0.034528901
+    "tasa_cambio_cop": 0.034772708,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "je",
     "nombre": "jersey",
     "codigo_divisa": "gbp",
-    "tasa_cambio_cop": 0.00017817791
+    "tasa_cambio_cop": 0.00017959105,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "jo",
     "nombre": "jordan",
     "codigo_divisa": "jod",
-    "tasa_cambio_cop": 0.00017095155
+    "tasa_cambio_cop": 0.00017250106,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "kz",
     "nombre": "kazakhstan",
     "codigo_divisa": "kzt",
-    "tasa_cambio_cop": 0.1232166
+    "tasa_cambio_cop": 0.12409208,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ke",
     "nombre": "kenya",
     "codigo_divisa": "kes",
-    "tasa_cambio_cop": 0.031123712
+    "tasa_cambio_cop": 0.031458777,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ki",
     "nombre": "kiribati",
     "codigo_divisa": "aud",
-    "tasa_cambio_cop": 0.0003720711
+    "tasa_cambio_cop": 0.00037438652,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "kr",
     "nombre": "korea (the republic of)",
     "codigo_divisa": "krw",
-    "tasa_cambio_cop": 0.3321344
+    "tasa_cambio_cop": 0.32998678,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "kw",
     "nombre": "kuwait",
     "codigo_divisa": "kwd",
-    "tasa_cambio_cop": 7.3920639e-05
+    "tasa_cambio_cop": 7.4540908e-05,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "kg",
     "nombre": "kyrgyzstan",
     "codigo_divisa": "kgs",
-    "tasa_cambio_cop": 0.021091364
+    "tasa_cambio_cop": 0.021283502,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "lv",
     "nombre": "latvia",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "lb",
     "nombre": "lebanon",
     "codigo_divisa": "lbp",
-    "tasa_cambio_cop": 21.62874093
+    "tasa_cambio_cop": 21.8308978,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ls",
     "nombre": "lesotho",
     "codigo_divisa": "lsl",
-    "tasa_cambio_cop": 0.0043050967
+    "tasa_cambio_cop": 0.0043385685,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "lr",
     "nombre": "liberia",
     "codigo_divisa": "lrd",
-    "tasa_cambio_cop": 0.048073747
+    "tasa_cambio_cop": 0.048460822,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ly",
     "nombre": "libya",
     "codigo_divisa": "lyd",
-    "tasa_cambio_cop": 0.0013139018
+    "tasa_cambio_cop": 0.0013271006,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "li",
     "nombre": "liechtenstein",
     "codigo_divisa": "chf",
-    "tasa_cambio_cop": 0.00019732431
+    "tasa_cambio_cop": 0.00019921173,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "lt",
     "nombre": "lithuania",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "lu",
     "nombre": "luxembourg",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mo",
     "nombre": "macao",
     "codigo_divisa": "mop",
-    "tasa_cambio_cop": 0.0019479778
+    "tasa_cambio_cop": 0.001966107,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mg",
     "nombre": "madagascar",
     "codigo_divisa": "mga",
-    "tasa_cambio_cop": 1.09344846
+    "tasa_cambio_cop": 1.10380388,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mw",
     "nombre": "malawi",
     "codigo_divisa": "mwk",
-    "tasa_cambio_cop": 0.41748611
+    "tasa_cambio_cop": 0.42177366,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "my",
     "nombre": "malaysia",
     "codigo_divisa": "myr",
-    "tasa_cambio_cop": 0.0010224883
+    "tasa_cambio_cop": 0.0010313561,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mv",
     "nombre": "maldives",
     "codigo_divisa": "mvr",
-    "tasa_cambio_cop": 0.003727581
+    "tasa_cambio_cop": 0.0037613929,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ml",
     "nombre": "mali",
     "codigo_divisa": "xof",
-    "tasa_cambio_cop": 0.13841496
+    "tasa_cambio_cop": 0.13978834,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mt",
     "nombre": "malta",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mh",
     "nombre": "marshall islands (the)",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mq",
     "nombre": "martinique",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mr",
     "nombre": "mauritania",
     "codigo_divisa": "mru",
-    "tasa_cambio_cop": 0.0095328659
+    "tasa_cambio_cop": 0.0096241895,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mu",
     "nombre": "mauritius",
     "codigo_divisa": "mur",
-    "tasa_cambio_cop": 0.011022983
+    "tasa_cambio_cop": 0.011140692,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "yt",
     "nombre": "mayotte",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mx",
     "nombre": "mexico",
     "codigo_divisa": "mxn",
-    "tasa_cambio_cop": 0.0046319652
+    "tasa_cambio_cop": 0.0046710564,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "fm",
     "nombre": "micronesia (federated states of)",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "md",
     "nombre": "moldova (the republic of)",
     "codigo_divisa": "mdl",
-    "tasa_cambio_cop": 0.0041584733
+    "tasa_cambio_cop": 0.0041986896,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mc",
     "nombre": "monaco",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mn",
     "nombre": "mongolia",
     "codigo_divisa": "mnt",
-    "tasa_cambio_cop": 0.86219956
+    "tasa_cambio_cop": 0.86989721,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "me",
     "nombre": "montenegro",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ms",
     "nombre": "montserrat",
     "codigo_divisa": "xcd",
-    "tasa_cambio_cop": 0.00065240201
+    "tasa_cambio_cop": 0.0006586972,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ma",
     "nombre": "morocco",
     "codigo_divisa": "mad",
-    "tasa_cambio_cop": 0.0022165159
+    "tasa_cambio_cop": 0.0022314442,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mz",
     "nombre": "mozambique",
     "codigo_divisa": "mzn",
-    "tasa_cambio_cop": 0.015403077
+    "tasa_cambio_cop": 0.015543221,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mm",
     "nombre": "myanmar",
     "codigo_divisa": "mmk",
-    "tasa_cambio_cop": 0.50624019
+    "tasa_cambio_cop": 0.51081794,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "na",
     "nombre": "namibia",
     "codigo_divisa": "nad",
-    "tasa_cambio_cop": 0.0043050967
+    "tasa_cambio_cop": 0.0043385685,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "nr",
     "nombre": "nauru",
     "codigo_divisa": "aud",
-    "tasa_cambio_cop": 0.0003720711
+    "tasa_cambio_cop": 0.00037438652,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "np",
     "nombre": "nepal",
     "codigo_divisa": "npr",
-    "tasa_cambio_cop": 0.032978838
+    "tasa_cambio_cop": 0.033449413,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "nl",
     "nombre": "netherlands (the)",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "nc",
     "nombre": "new caledonia",
     "codigo_divisa": "xpf",
-    "tasa_cambio_cop": 0.025180459
+    "tasa_cambio_cop": 0.025430304,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "nz",
     "nombre": "new zealand",
     "codigo_divisa": "nzd",
-    "tasa_cambio_cop": 0.00039927393
+    "tasa_cambio_cop": 0.00040329441,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ni",
     "nombre": "nicaragua",
     "codigo_divisa": "nio",
-    "tasa_cambio_cop": 0.0088628215
+    "tasa_cambio_cop": 0.0089509699,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ne",
     "nombre": "niger (the)",
     "codigo_divisa": "xof",
-    "tasa_cambio_cop": 0.13841496
+    "tasa_cambio_cop": 0.13978834,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ng",
     "nombre": "nigeria",
     "codigo_divisa": "ngn",
-    "tasa_cambio_cop": 0.3812187
+    "tasa_cambio_cop": 0.3841951,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "nu",
     "nombre": "niue",
     "codigo_divisa": "nzd",
-    "tasa_cambio_cop": 0.00039927393
+    "tasa_cambio_cop": 0.00040329441,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "nf",
     "nombre": "norfolk island",
     "codigo_divisa": "aud",
-    "tasa_cambio_cop": 0.0003720711
+    "tasa_cambio_cop": 0.00037438652,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mp",
     "nombre": "northern mariana islands (the)",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "no",
     "nombre": "norway",
     "codigo_divisa": "nok",
-    "tasa_cambio_cop": 0.0024324629
+    "tasa_cambio_cop": 0.002459187,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "om",
     "nombre": "oman",
     "codigo_divisa": "omr",
-    "tasa_cambio_cop": 9.2791263e-05
+    "tasa_cambio_cop": 9.3643536e-05,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "pk",
     "nombre": "pakistan",
     "codigo_divisa": "pkr",
-    "tasa_cambio_cop": 0.067919166
+    "tasa_cambio_cop": 0.06867987,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "pw",
     "nombre": "palau",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": " state of",
     "nombre": "palestine",
     "codigo_divisa": "no universal currency",
-    "tasa_cambio_cop": null
+    "tasa_cambio_cop": null,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "pa",
     "nombre": "panama",
     "codigo_divisa": "pab",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "pg",
     "nombre": "papua new guinea",
     "codigo_divisa": "pgk",
-    "tasa_cambio_cop": 0.00098873994
+    "tasa_cambio_cop": 0.0010004305,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "py",
     "nombre": "paraguay",
     "codigo_divisa": "pyg",
-    "tasa_cambio_cop": 1.92465707
+    "tasa_cambio_cop": 1.94334548,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "pe",
     "nombre": "peru",
     "codigo_divisa": "pen",
-    "tasa_cambio_cop": 0.0008718094
+    "tasa_cambio_cop": 0.00088231587,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ph",
     "nombre": "philippines (the)",
     "codigo_divisa": "php",
-    "tasa_cambio_cop": 0.01342546
+    "tasa_cambio_cop": 0.013532559,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "pn",
     "nombre": "pitcairn",
     "codigo_divisa": "nzd",
-    "tasa_cambio_cop": 0.00039927393
+    "tasa_cambio_cop": 0.00040329441,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "pl",
     "nombre": "poland",
     "codigo_divisa": "pln",
-    "tasa_cambio_cop": 0.00089826442
+    "tasa_cambio_cop": 0.00091206137,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "pt",
     "nombre": "portugal",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "pr",
     "nombre": "puerto rico",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "qa",
     "nombre": "qatar",
     "codigo_divisa": "qar",
-    "tasa_cambio_cop": 0.00087766381
+    "tasa_cambio_cop": 0.00088561899,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mk",
     "nombre": "republic of north macedonia",
     "codigo_divisa": "mkd",
-    "tasa_cambio_cop": 0.012972267
+    "tasa_cambio_cop": 0.013102426,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ro",
     "nombre": "romania",
     "codigo_divisa": "ron",
-    "tasa_cambio_cop": 0.0010681564
+    "tasa_cambio_cop": 0.0010740777,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ru",
     "nombre": "russian federation (the)",
     "codigo_divisa": "rub",
-    "tasa_cambio_cop": 0.019052792
+    "tasa_cambio_cop": 0.019282833,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "rw",
     "nombre": "rwanda",
     "codigo_divisa": "rwf",
-    "tasa_cambio_cop": 0.34448721
+    "tasa_cambio_cop": 0.34555203,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "re",
     "nombre": "r\ufffdunion",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "bl",
     "nombre": "saint barth\ufffdlemy",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": " ascension and tristan da cunha",
     "nombre": "saint helena",
     "codigo_divisa": "saint helena pound",
-    "tasa_cambio_cop": null
+    "tasa_cambio_cop": null,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "kn",
     "nombre": "saint kitts and nevis",
     "codigo_divisa": "xcd",
-    "tasa_cambio_cop": 0.00065240201
+    "tasa_cambio_cop": 0.0006586972,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "lc",
     "nombre": "saint lucia",
     "codigo_divisa": "xcd",
-    "tasa_cambio_cop": 0.00065240201
+    "tasa_cambio_cop": 0.0006586972,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "mf",
     "nombre": "saint martin (french part)",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "pm",
     "nombre": "saint pierre and miquelon",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "vc",
     "nombre": "saint vincent and the grenadines",
     "codigo_divisa": "xcd",
-    "tasa_cambio_cop": 0.00065240201
+    "tasa_cambio_cop": 0.0006586972,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ws",
     "nombre": "samoa",
     "codigo_divisa": "wst",
-    "tasa_cambio_cop": 0.00066225078
+    "tasa_cambio_cop": 0.00066910032,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "sm",
     "nombre": "san marino",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "st",
     "nombre": "sao tome and principe",
     "codigo_divisa": "stn",
-    "tasa_cambio_cop": 0.0052121015
+    "tasa_cambio_cop": 0.005269512,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "sa",
     "nombre": "saudi arabia",
     "codigo_divisa": "sar",
-    "tasa_cambio_cop": 0.00090418662
+    "tasa_cambio_cop": 0.0009123822,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "sn",
     "nombre": "senegal",
     "codigo_divisa": "xof",
-    "tasa_cambio_cop": 0.13841496
+    "tasa_cambio_cop": 0.13978834,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "rs",
     "nombre": "serbia",
     "codigo_divisa": "rsd",
-    "tasa_cambio_cop": 0.024730342
+    "tasa_cambio_cop": 0.024979384,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "sc",
     "nombre": "seychelles",
     "codigo_divisa": "scr",
-    "tasa_cambio_cop": 0.0035358132
+    "tasa_cambio_cop": 0.0035329428,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "sl",
     "nombre": "sierra leone",
     "codigo_divisa": "sll",
-    "tasa_cambio_cop": 5.49626594
+    "tasa_cambio_cop": 5.54001105,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "sg",
     "nombre": "singapore",
     "codigo_divisa": "sgd",
-    "tasa_cambio_cop": 0.00031026982
+    "tasa_cambio_cop": 0.00031285856,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "sx",
     "nombre": "sint maarten (dutch part)",
     "codigo_divisa": "ang",
-    "tasa_cambio_cop": 0.00043364684
+    "tasa_cambio_cop": 0.00043817276,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "sk",
     "nombre": "slovakia",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "si",
     "nombre": "slovenia",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "sb",
     "nombre": "solomon islands",
     "codigo_divisa": "sbd",
-    "tasa_cambio_cop": 0.0020362685
+    "tasa_cambio_cop": 0.0020703846,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "so",
     "nombre": "somalia",
     "codigo_divisa": "sos",
-    "tasa_cambio_cop": 0.1372824
+    "tasa_cambio_cop": 0.13887462,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "za",
     "nombre": "south africa",
     "codigo_divisa": "zar",
-    "tasa_cambio_cop": 0.0043050967
+    "tasa_cambio_cop": 0.0043385685,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gs",
     "nombre": "south georgia and the south sandwich islands",
     "codigo_divisa": "",
-    "tasa_cambio_cop": null
+    "tasa_cambio_cop": null,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ss",
     "nombre": "south sudan",
     "codigo_divisa": "ssp",
-    "tasa_cambio_cop": null
+    "tasa_cambio_cop": null,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "es",
     "nombre": "spain",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "lk",
     "nombre": "sri lanka",
     "codigo_divisa": "lkr",
-    "tasa_cambio_cop": 0.072089226
+    "tasa_cambio_cop": 0.072785501,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "sd",
     "nombre": "sudan (the)",
     "codigo_divisa": "sdg",
-    "tasa_cambio_cop": 0.1447522
+    "tasa_cambio_cop": 0.14611175,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "sr",
     "nombre": "suriname",
     "codigo_divisa": "srd",
-    "tasa_cambio_cop": 0.0088931349
+    "tasa_cambio_cop": 0.0089451058,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "sj",
     "nombre": "svalbard and jan mayen",
     "codigo_divisa": "nok",
-    "tasa_cambio_cop": 0.0024324629
+    "tasa_cambio_cop": 0.002459187,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "se",
     "nombre": "sweden",
     "codigo_divisa": "sek",
-    "tasa_cambio_cop": 0.0023001697
+    "tasa_cambio_cop": 0.0023322365,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ch",
     "nombre": "switzerland",
     "codigo_divisa": "chf",
-    "tasa_cambio_cop": 0.00019732431
+    "tasa_cambio_cop": 0.00019921173,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "sy",
     "nombre": "syrian arab republic",
     "codigo_divisa": "syp",
-    "tasa_cambio_cop": 3.13496092
+    "tasa_cambio_cop": 3.16336792,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "tw",
     "nombre": "taiwan (province of china)",
     "codigo_divisa": "twd",
-    "tasa_cambio_cop": 0.0072279484
+    "tasa_cambio_cop": 0.0072687274,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "tj",
     "nombre": "tajikistan",
     "codigo_divisa": "tjs",
-    "tasa_cambio_cop": 0.0024044659
+    "tasa_cambio_cop": 0.0024075936,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": " united republic of",
     "nombre": "tanzania",
     "codigo_divisa": "tanzanian shilling",
-    "tasa_cambio_cop": null
+    "tasa_cambio_cop": null,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "th",
     "nombre": "thailand",
     "codigo_divisa": "thb",
-    "tasa_cambio_cop": 0.0078499637
+    "tasa_cambio_cop": 0.0079209229,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "tl",
     "nombre": "timor-leste",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "tg",
     "nombre": "togo",
     "codigo_divisa": "xof",
-    "tasa_cambio_cop": 0.13841496
+    "tasa_cambio_cop": 0.13978834,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "tk",
     "nombre": "tokelau",
     "codigo_divisa": "nzd",
-    "tasa_cambio_cop": 0.00039927393
+    "tasa_cambio_cop": 0.00040329441,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "to",
     "nombre": "tonga",
     "codigo_divisa": "top",
-    "tasa_cambio_cop": 0.00057396146
+    "tasa_cambio_cop": 0.00058596519,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "tt",
     "nombre": "trinidad and tobago",
     "codigo_divisa": "ttd",
-    "tasa_cambio_cop": 0.0016353221
+    "tasa_cambio_cop": 0.0016475293,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "tn",
     "nombre": "tunisia",
     "codigo_divisa": "tnd",
-    "tasa_cambio_cop": 0.00071352375
+    "tasa_cambio_cop": 0.00071797906,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "tr",
     "nombre": "turkey",
     "codigo_divisa": "try",
-    "tasa_cambio_cop": 0.0094501246
+    "tasa_cambio_cop": 0.0095688759,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "tm",
     "nombre": "turkmenistan",
     "codigo_divisa": "tmt",
-    "tasa_cambio_cop": 0.00084565526
+    "tasa_cambio_cop": 0.00085154184,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "tc",
     "nombre": "turks and caicos islands (the)",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "tv",
     "nombre": "tuvalu",
     "codigo_divisa": "aud",
-    "tasa_cambio_cop": 0.0003720711
+    "tasa_cambio_cop": 0.00037438652,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ug",
     "nombre": "uganda",
     "codigo_divisa": "ugx",
-    "tasa_cambio_cop": 0.87763911
+    "tasa_cambio_cop": 0.88569074,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ua",
     "nombre": "ukraine",
     "codigo_divisa": "uah",
-    "tasa_cambio_cop": 0.010043289
+    "tasa_cambio_cop": 0.010106211,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ae",
     "nombre": "united arab emirates (the)",
     "codigo_divisa": "aed",
-    "tasa_cambio_cop": 0.00088550009
+    "tasa_cambio_cop": 0.0008935263,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "gb",
     "nombre": "united kingdom of great britain and northern ireland (the)",
     "codigo_divisa": "gbp",
-    "tasa_cambio_cop": 0.00017817791
+    "tasa_cambio_cop": 0.00017959105,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "um",
     "nombre": "united states minor outlying islands (the)",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "us",
     "nombre": "united states of america (the)",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "uy",
     "nombre": "uruguay",
     "codigo_divisa": "uyu",
-    "tasa_cambio_cop": 0.0099997592
+    "tasa_cambio_cop": 0.010126006,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "uz",
     "nombre": "uzbekistan",
     "codigo_divisa": "uzs",
-    "tasa_cambio_cop": 3.0859824
+    "tasa_cambio_cop": 3.12267617,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "vu",
     "nombre": "vanuatu",
     "codigo_divisa": "vuv",
-    "tasa_cambio_cop": 0.029082972
+    "tasa_cambio_cop": 0.029351411,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ve",
     "nombre": "venezuela (bolivarian republic of)",
     "codigo_divisa": "vef",
-    "tasa_cambio_cop": 2343.99359872
+    "tasa_cambio_cop": 2367.7818753,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "vn",
     "nombre": "viet nam",
     "codigo_divisa": "vnd",
-    "tasa_cambio_cop": 6.28291141
+    "tasa_cambio_cop": 6.34724105,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "vg",
     "nombre": "virgin islands (british)",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "vi",
     "nombre": "virgin islands (u.s.)",
     "codigo_divisa": "usd",
-    "tasa_cambio_cop": 0.00024111643
+    "tasa_cambio_cop": 0.00024330192,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "wf",
     "nombre": "wallis and futuna",
     "codigo_divisa": "xpf",
-    "tasa_cambio_cop": 0.025180459
+    "tasa_cambio_cop": 0.025430304,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "eh",
     "nombre": "western sahara",
     "codigo_divisa": "mad",
-    "tasa_cambio_cop": 0.0022165159
+    "tasa_cambio_cop": 0.0022314442,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ye",
     "nombre": "yemen",
     "codigo_divisa": "yer",
-    "tasa_cambio_cop": 0.058796101
+    "tasa_cambio_cop": 0.059331703,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "zm",
     "nombre": "zambia",
     "codigo_divisa": "zmw",
-    "tasa_cambio_cop": 0.0064412389
+    "tasa_cambio_cop": 0.0063510177,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "zw",
     "nombre": "zimbabwe",
     "codigo_divisa": "zwl",
-    "tasa_cambio_cop": 16.21999649
+    "tasa_cambio_cop": 16.37306152,
+    "fecha_tasa": "2025-06-05"
   },
   {
     "alfa2": "ax",
     "nombre": "\u00c5land islands",
     "codigo_divisa": "eur",
-    "tasa_cambio_cop": 0.00021101225
+    "tasa_cambio_cop": 0.00021310595,
+    "fecha_tasa": "2025-06-05"
   }
 ]

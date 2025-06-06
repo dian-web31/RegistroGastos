@@ -16,8 +16,8 @@ class Gasto:
 			'id': self.id,
 			'fecha': self.fecha.isoformat(),
 			'valor_cop': self.valor_cop,
-			'tipo_gasto': self.tipo_gasto.name(),
-			'medio_pago': self.medio_pago.name()
+			'tipo_gasto': self.tipo_gasto.name,
+			'medio_pago': self.medio_pago.name
 		}
 	
 	@classmethod

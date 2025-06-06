@@ -19,6 +19,7 @@ class PantallaRegistroGasto:
 		for medio in MedioPago:
 			print(f'\t{medio.value} - {medio.name}')
 		medio = int(input('Seleccione un medio: '))
+		print()
 
 		try:
 			diferencia = self.control_gastos.registrar_gasto(fecha, valor, tipo, medio)

@@ -1,14 +1,65 @@
 [
   {
-    "fecha_inicio": "2025-06-04",
+    "fecha_inicio": "2025-06-05",
     "fecha_fin": "2025-07-01",
     "presupuesto_diario": 100000.0,
     "pais": {
       "alfa2": "co",
       "nombre": "colombia",
       "codigo_divisa": "cop",
-      "tasa_cambio_cop": 1
+      "tasa_cambio_cop": 1,
+      "fecha_tasa": "2025-06-05"
     },
-    "gastos": []
+    "gastos": [
+      {
+        "id": "6bb5caf0-b343-4ee0-ac28-c3c82856af22",
+        "fecha": "2025-06-05",
+        "valor_cop": 10000.0,
+        "tipo_gasto": "ENTRETENIMIENTO",
+        "medio_pago": "EFECTIVO"
+      },
+      {
+        "id": "9f15328f-0a7b-4a7e-9b49-4c1a3d392650",
+        "fecha": "2025-06-06",
+        "valor_cop": 10000.0,
+        "tipo_gasto": "ENTRETENIMIENTO",
+        "medio_pago": "EFECTIVO"
+      },
+      {
+        "id": "295de502-156d-46e1-8dba-61d13df527b1",
+        "fecha": "2025-06-06",
+        "valor_cop": 10000.0,
+        "tipo_gasto": "ENTRETENIMIENTO",
+        "medio_pago": "EFECTIVO"
+      },
+      {
+        "id": "34d89cb8-848e-4383-a6d4-9192fa1afe5f",
+        "fecha": "2025-06-06",
+        "valor_cop": 40000.0,
+        "tipo_gasto": "ALIMENTACION",
+        "medio_pago": "TARJETA"
+      },
+      {
+        "id": "413c70cb-ab6b-4209-9ceb-affb015054ed",
+        "fecha": "2025-06-06",
+        "valor_cop": 3000.0,
+        "tipo_gasto": "TRANSPORTE",
+        "medio_pago": "EFECTIVO"
+      },
+      {
+        "id": "2e5ee219-8259-48ce-941f-c1425608ed73",
+        "fecha": "2025-06-06",
+        "valor_cop": 10000.0,
+        "tipo_gasto": "COMPRAS",
+        "medio_pago": "TARJETA"
+      },
+      {
+        "id": "a0fe8602-bb2b-49a8-8586-351f867fbaed",
+        "fecha": "2025-06-06",
+        "valor_cop": 10000.0,
+        "tipo_gasto": "COMPRAS",
+        "medio_pago": "TARJETA"
+      }
+    ]
   }
 ]

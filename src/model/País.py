@@ -1,6 +1,7 @@
 from datetime import date
+from src.model.JSONSerializable import JSONSerializable
 
-class País:
+class País(JSONSerializable):
 	'''
 	Modelo de datos para representar un país.
 	Los atributos de la clase Pais son recolectados de la Exchange-API.
@@ -8,7 +9,14 @@ class País:
 	GET https://latest.currency-api.pages.dev/v1/currencies/cop.json
 	GET https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies.json
 	'''
-	def __init__(self, alfa2: str, nombre: str, codigo_divisa:str, tasa_cambio_cop: float, fecha_tasa: date):
+	def __init__(
+		self,
+		alfa2: str,
+		nombre: str,
+		codigo_divisa:str,
+		tasa_cambio_cop: float,
+		fecha_tasa: date = date.today()
+	):
 		self.alfa2 = alfa2
 		self.nombre = nombre
 		self.código_divisa = codigo_divisa
@@ -43,6 +51,5 @@ class País:
 			alfa2=json_data['alfa2'],
 			nombre=json_data['nombre'],
 			codigo_divisa=json_data['codigo_divisa'],
-			tasa_cambio_cop=json_data['tasa_cambio_cop'],
-			fecha_tasa=date.fromisoformat(json_data['fecha_tasa'])
+			tasa_cambio_cop=json_data['tasa_cambio_cop']
 		)

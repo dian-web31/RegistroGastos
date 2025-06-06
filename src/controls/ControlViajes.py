@@ -38,7 +38,13 @@ class ControlViajes:
 			)
 		
 		viaje = Viaje(fecha_inicio, fecha_fin, presupuesto_diario, país)
-		self.repo.guardar_viaje(viaje)
+		
+		fue_guardado = self.repo.guardar_viaje(viaje)
+		if not fue_guardado:
+			raise ValueError(
+				'Ya existe un viaje registrado para la fecha de inicio proporcionada'
+			)
+		
 		return viaje
 			
 	def buscar_viaje(self, fecha_inicio: date) -> Viaje:

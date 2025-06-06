@@ -1,8 +1,9 @@
 from datetime import date
 from src.model.Gasto import Gasto
 from src.model.País import País
+from src.model.JSONSerializable import JSONSerializable
 
-class Viaje:
+class Viaje(JSONSerializable):
 	def __init__(
 		self,
 		fecha_inicio: date,

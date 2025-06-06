@@ -34,12 +34,12 @@ class RepoViajes:
 		try:
 			api_cargada = self.cargar_países_api()
 			if not api_cargada:
-				países_data = self.cargar_json('países.json')
-				self.países = {p.alfa2: p for p in países_data}
+				países: list[País] = self.cargar_países()
+				self.países = {p.alfa2: p for p in países}
 			
 			# 2. Cargar viajes
-			viajes_data = self.cargar_json('viajes.json')
-			self.viajes = {v.fecha_inicio: v for v in viajes_data}
+			viajes: list[Viaje] = self.cargar_viajes()
+			self.viajes = {v.fecha_inicio.isoformat(): v for v in viajes}
 			return True
 		except Exception as e:
 			print(e)
@@ -67,12 +67,14 @@ class RepoViajes:
 			tasa_cop = None
 			if info_países[alfa2]['currency_code'] in tasas_cop:
 				tasa_cop = tasas_cop[info_países[alfa2]['currency_code']]
-			
+			fecha_tasa = date.today()
+
 			país = País(
 				alfa2,
 				info_países[alfa2]['country_name'],
 				info_países[alfa2]['currency_code'],
 				tasa_cop,
+				fecha_tasa
 			)
 			self.países[alfa2] = país
 		
@@ -87,8 +89,8 @@ class RepoViajes:
 		'''
 		viaje_existente = self.buscar_viaje(viaje.fecha_inicio)
 		
-		if viaje_existente is not None:
-			self.viajes[viaje.fecha_inicio] = viaje
+		if viaje_existente is None:
+			self.viajes[viaje.fecha_inicio.isoformat()] = viaje
 			
 			viajes_json = [v.to_json() for v in self.viajes.values()]
 			self.guardar_json(viajes_json, 'viajes.json')
@@ -100,23 +102,28 @@ class RepoViajes:
 		'''
 		:return bool: `True` si el gasto fue guardado correctamente
 		'''
-		viaje = self.buscar_viaje(gasto.fecha)
+		viaje = self.buscar_viaje(gasto.fecha.isoformat())
 		if viaje is None:
 			return False
 		
 		viaje.agregar_gasto(gasto)
-		return self.guardar_viaje(viaje)  # Esto guardará el viaje con todos sus gastos
 
-	def buscar_viaje(self, fecha: date) -> Viaje:
+		viajes_json = [v.to_json() for v in self.viajes.values()]
+		self.guardar_json(viajes_json, 'viajes.json')
+		
+		return True
+
+	def buscar_viaje(self, fecha: str) -> Viaje:
 		# 1. Verificar fecha exacta
 		if fecha in self.viajes:
 			return self.viajes[fecha]
 		
-		# 2. Buscar en rangos de fechas
-		for viaje in self.viajes.values():
-			if viaje.fecha_inicio <= fecha <= viaje.get_fecha_fin():
-				return viaje
-		
+		# Buscamos el viaje que siga vigente en la fecha indicada.
+		fecha = date.fromisoformat(fecha)
+		for f in self.viajes:
+			if self.viajes[f].fecha_inicio < fecha <= self.viajes[f].fecha_fin:
+				return self.viajes[f]
+
 		return None
 
 	def buscar_país(self, alfa2: str) -> País:
@@ -133,17 +140,20 @@ class RepoViajes:
 			print(f"Error al guardar el archivo {filename}: {e}")
 			return False
 
-	def cargar_json(self, filename: str) -> dict:
+	def cargar_países(self) -> dict:
 		try:
-			with open(f'{os.getenv("url_data")}/{filename}', 'r') as file:
+			with open(f'{os.getenv("url_data")}/países.json', 'r') as file:
 				data = json.load(file)
-				
-				if filename == 'viajes.json':
-					return [Viaje.from_json(v) for v in data]
-				elif filename == 'países.json':
-					return [País.from_json(p) for p in data]
-				
-				return data
+				return [País.from_json(p) for p in data]
 		except Exception as e:
-			print(f"Error al cargar el archivo {filename}: {e}")
+			print(f"Error al cargar el archivo países.json: {e}")
+			return []
+
+	def cargar_viajes(self) -> dict:
+		try:
+			with open(f'{os.getenv("url_data")}/viajes.json', 'r') as file:
+				data = json.load(file)
+				return [Viaje.from_json(v) for v in data]
+		except Exception as e:
+			print(f"Error al cargar el archivo viajes.json: {e}")
 			return []
